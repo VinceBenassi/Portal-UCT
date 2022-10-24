@@ -17,6 +17,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
         
         <style>
+            /* Navegación modo oscuro*/
             body.darkmode{
                 background-color: #1f1f1f;
                 color: white;
@@ -40,25 +41,57 @@
             }
 
             .darkmode .card {
-                background-color: darkslategray;
+                background-color: #3c3939;
                 color: white;
             }
 
+            .darkmode .btn-outline{
+                background-color: white;
+                color: black;
+            }
+
+            .darkmode label{
+                color: white;
+            }
+
+            .darkmode table{
+                color: white;
+            }
+
+            .darkmode tbody{
+                color: white;
+            }
+
+            .darkmode label[for=floatingInput], label[for=floatingPassword]{
+                color: black;
+            }
+
+
+            /* Navegación Fondo Blanco */
+            body{
+                transition: all 0.4s;
+            }
+
             .navbar{
-                background-color: gray;
+                background-color: #F2EFEE;
             }
 
             footer{
-                background-color: #e9f1ec;
+                background-color: #F2EFEE;
             }
 
             article a{
-                background-color: #e9f1ec;
+                background-color: #F2EFEE;
                 color: black;
                 text-decoration: none;
             }
 
             .nav-link{
+                color: black;
+            }
+
+            .btn-outline{
+                background-color: lightgrey;
                 color: black;
             }
 
@@ -127,12 +160,12 @@
                     </ul>
 
                     <div>
-                        <button id="bdark" class="btn btn-outline-dark" onclick="modoOscuro()">Modo Oscuro</button>
-                        <a href="https://www.facebook.com/canaluctemuco?ref=hl" class="btn btn-outline-dark mr-2" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i> </a>
-                        <a href="https://twitter.com/UC_Temuco" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/uctemuco/?hl=es-la" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram"></i> </a>
-                        <a href="https://www.youtube.com/user/canaluctemuco" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-youtube"></i> </a>
-                        <a href="https://www.flickr.com/photos/uc_temuco/sets/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-flickr"></i></a>
+                        <button id="bdark" class="btn btn-outline" onclick="modoOscuro()">Modo Oscuro</button>
+                        <a href="https://www.facebook.com/canaluctemuco?ref=hl" class="btn btn-outline mr-2" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i> </a>
+                        <a href="https://twitter.com/UC_Temuco" class="btn btn-outline" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/uctemuco/?hl=es-la" class="btn btn-outline" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram"></i> </a>
+                        <a href="https://www.youtube.com/user/canaluctemuco" class="btn btn-outline" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-youtube"></i> </a>
+                        <a href="https://www.flickr.com/photos/uc_temuco/sets/" class="btn btn-outline" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-flickr"></i></a>
                     </div>
                 </div>
             </div>

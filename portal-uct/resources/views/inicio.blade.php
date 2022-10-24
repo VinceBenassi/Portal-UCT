@@ -21,8 +21,8 @@
 
                 <div class="text-center">
                     <button type="submit" class="btn btn-success mb-3">Ingresar <i class="fa-solid fa-right-to-bracket"></i></button> 
-                    <a href="cambiar" type="submit" class="btn btn-secondary mb-3" target="_blank" rel="noopener noreferrer">Cambiar contraseña</a>
-                    <a href="recuperar" type="submit" class="btn btn-secondary mb-3" target="_blank" rel="noopener noreferrer">Recuperar contraseña</a>
+                    <a href="cambiar" type="submit" class="btn btn-outline mb-3" target="_blank" rel="noopener noreferrer">Cambiar contraseña</a>
+                    <a href="recuperar" type="submit" class="btn btn-outline mb-3" target="_blank" rel="noopener noreferrer">Recuperar contraseña</a>
                 </div>
             </form>
         </article>
