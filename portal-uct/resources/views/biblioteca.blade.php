@@ -4,7 +4,7 @@
 
 @section('contenido')
     <section class="d-sm-flex">
-        <article id="sidebar-container" class="text-center">
+        <article class="text-center">
             <a href="menu" class="d-block p-3"><i class="fa-solid fa-id-badge"></i> Inicio</a>
             <a href="inscripcion" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title=""><i class="fa-brands fa-discourse"></i> Inscripción de Cursos</a>
             <a href="notap" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Solicitud para dejar nota pendiente"><i class="fas fa-file-signature"></i> Solicitud Nota P</a>
@@ -23,31 +23,33 @@
 
 
         <aside class="mx-auto">
-            <div class="alert alert-warning" role="alert">
-                <h4 class="alert-heading"><i class="fa-solid fa-triangle-exclamation"></i> Estimado(a) FRANCO </h4>
-                <p>Has solicitado los siguientes recursos en biblioteca: </p>
-            </div>
+            <section class="container text-center">
+                <div class="alert alert-warning" role="alert">
+                    <h4 class="alert-heading"><i class="fa-solid fa-triangle-exclamation"></i> Estimado(a) FRANCO </h4>
+                    <p>Has solicitado los siguientes recursos en biblioteca: </p>
+                </div>
 
 
 
-            <table class="table">
-                <thead class="table-dark">
-                    <tr>
-                        <th scope="col">Material</th>
-                        <th scope="col">Título</th>
-                        <th scope="col">Autor</th>
-                        <th scope="col">Fecha Préstamo</th>
-                        <th scope="col">Fecha Devolución</th>
-                        <th scope="col">Biblioteca</th>
-                    </tr>
-                </thead>
-                                                        
-                <tbody>
-                    <tr>
-                        <th>No tiene préstamos vigentes</th>
-                    </tr>
-                </tbody>
-            </table>
+                <table class="table table-responsive table-sm">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Material</th>
+                            <th scope="col">Título</th>
+                            <th scope="col">Autor</th>
+                            <th scope="col">Fecha Préstamo</th>
+                            <th scope="col">Fecha Devolución</th>
+                            <th scope="col">Biblioteca</th>
+                        </tr>
+                    </thead>
+                                                            
+                    <tbody>
+                        <tr>
+                            <th>No tiene préstamos vigentes</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </aside>
     </section>
 @endsection

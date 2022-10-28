@@ -42,7 +42,7 @@
                     </h4>
                 </div>
 
-                <table class="table">
+                <table class="table table-responsive table-sm">
                     <thead class="table-dark">
                         <tr>
                             <th scope="col">Carrera</th>

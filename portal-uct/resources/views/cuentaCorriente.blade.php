@@ -30,21 +30,21 @@
 
 
 
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Cuenta corriente
                         </button>
                     </h2>
 
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-center">
                             <p>En esta sección podras consultar el estado de tu cuenta corriente.</p>
 
                             <strong>Información del Estudiante</strong>
                             
-                            <table class="table table-sm">
+                            <table class="table table-responsive table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">RUT</th>
@@ -80,7 +80,7 @@
 
                             <button type="submit" class="btn btn-success mb-3">Filtrar datos</button>
 
-                            <table class="table">
+                            <table class="table table-responsive table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">Carrera</th>
@@ -114,13 +114,13 @@
 
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Pago con Webpay plus
                         </button>
                     </h2>
 
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-center">
                             <strong>Información del Estudiante</strong>
                             

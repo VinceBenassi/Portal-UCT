@@ -66,19 +66,19 @@
                             </button>
                         </h2>
 
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                                 CIUDADANÍA Y DERECHOS HUMANOS
                                             </button>
                                         </h2>
                                 
-                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                                             <div class="accordion-body">
-                                                <table class="table table-sm">
+                                                <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
                                                         <tr>
                                                             <th scope="col">Sigla</th>
@@ -110,7 +110,7 @@
                                     
                                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                                             <div class="accordion-body">
-                                                <table class="table table-sm">
+                                                <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
                                                         <tr>
                                                             <th scope="col">Sigla</th>
@@ -142,7 +142,7 @@
                                 
                                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                                             <div class="accordion-body">
-                                                <table class="table table-sm">
+                                                <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
                                                         <tr>
                                                             <th scope="col">Sigla</th>
@@ -174,7 +174,7 @@
                                 
                                         <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                                             <div class="accordion-body">
-                                                <table class="table table-sm">
+                                                <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
                                                         <tr>
                                                             <th scope="col">Sigla</th>
@@ -206,7 +206,7 @@
                                 
                                         <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                                             <div class="accordion-body">
-                                                <table class="table table-sm">
+                                                <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
                                                         <tr>
                                                             <th scope="col">Sigla</th>
@@ -238,7 +238,7 @@
                                 
                                         <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
                                             <div class="accordion-body">
-                                                <table class="table table-sm">
+                                                <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
                                                         <tr>
                                                             <th scope="col">Sigla</th>
@@ -270,7 +270,7 @@
                                 
                                         <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
                                             <div class="accordion-body">
-                                                <table class="table table-sm">
+                                                <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
                                                         <tr>
                                                             <th scope="col">Sigla</th>
@@ -306,7 +306,7 @@
 
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                                <table class="table">
+                                <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Rut</th>

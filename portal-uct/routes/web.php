@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('menu', function () {
-    return view('inicio');
+    return view('menu');
 });
 
 Route::get('biblioteca', function () {

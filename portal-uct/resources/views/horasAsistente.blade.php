@@ -49,7 +49,7 @@
                             <div class="accordion-body text-center">
                                 <strong>Información del Estudiante</strong>
                                 
-                                <table class="table table-sm">
+                                <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">RUT</th>
@@ -71,23 +71,25 @@
                                     <option value="2">Segundo semestre</option>
                                 </select>
                                 
-                                <table class="table table-sm">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th scope="col">Datos de reserva</th>
-                                        </tr>
-                                    </thead>
-                                                        
-                                    <tbody>
-                                        <tr>
-                                            <th>
-                                                <p>La reserva quedará agendada en el campus: CAMPUS SAN JUAN PABLO II</p>
+                                <div class="collapse text-center" id="collapseCarrera">
+                                    <table class="table table-responsive table-sm">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">Datos de reserva</th>
+                                            </tr>
+                                        </thead>
+                                                            
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    <p>La reserva quedará agendada en el campus: CAMPUS SAN JUAN PABLO II</p>
 
-                                                
-                                            </th>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                                    
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>

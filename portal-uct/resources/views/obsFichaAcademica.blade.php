@@ -55,7 +55,7 @@
                                 <div class="collapse text-center" id="collapseCarrera">
                                     <h3>Estado de solicitudes</h3>
 
-                                    <table class="table">
+                                    <table class="table table-responsive table-sm">
                                         <thead class="table-dark">
                                             <tr>
                                                 <th scope="col">Código Solicitud</th>

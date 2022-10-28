@@ -46,7 +46,7 @@
                 <div class="collapse text-center" id="collapseExample">
                     <h2>Información del estudiante</h2>
 
-                    <table class="table table-sm border-dark">
+                    <table class="table table-responsive table-sm border-dark">
                         <thead class="table-dark border-dark">
                             <tr>
                                 <th scope="col">Rut</th>
@@ -87,7 +87,7 @@
 
 
 
-                        <table class="table table-sm">
+                        <table class="table table-responsive table-sm">
                             <h4>Solicitudes realizadas</h4>
                             <thead class="table-dark">
                                 <tr>

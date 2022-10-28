@@ -44,7 +44,7 @@
                             <div class="accordion-body">
                                 <strong>Información del estudiante</strong>
 
-                                <table class="table">
+                                <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">RUT</th>
@@ -90,7 +90,7 @@
                                     <div class="collapse text-center" id="collapseCurso">
                                         <strong>Notas parciales</strong>
 
-                                        <table class="table">
+                                        <table class="table table-responsive table-sm">
                                             <thead class="table-dark">
                                                 <tr>
                                                     <th scope="col">Descripcion</th>
@@ -130,7 +130,7 @@
                             <div class="accordion-body">
                                 <strong>Información del estudiante</strong>
 
-                                <table class="table">
+                                <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">RUT</th>
@@ -176,7 +176,7 @@
                                     <div class="collapse text-center" id="collapseCurso">
                                         <strong>Asistencias</strong>
 
-                                        <table class="table">
+                                        <table class="table table-responsive table-sm">
                                             <thead class="table-dark">
                                                 <tr>
                                                     <th scope="col">N° Clase</th>

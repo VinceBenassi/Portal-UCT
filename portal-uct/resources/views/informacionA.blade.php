@@ -43,7 +43,7 @@
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <strong>Información del Estudiante</strong>
                             
-                            <table class="table table-sm">
+                            <table class="table table-responsive table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">RUT</th>
@@ -63,7 +63,7 @@
 
                             <strong>Información de la Carrera</strong>
                                 
-                            <table class="table">
+                            <table class="table table-responsive table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">Cód. Carrera</th>
@@ -125,7 +125,7 @@
                             <div class="collapse text-center" id="collapseCarrera">
                                 <h2>Información de la carrera</h2>
 
-                                <table class="table">
+                                <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Cód. Carrera</th>
@@ -158,7 +158,7 @@
 
                                 <h4>Carga Académica</h4>
 
-                                <table class="table">
+                                <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Año</th>
@@ -278,7 +278,7 @@
                                 
                                 <h4>Salas Asignadas</h4>
                                 
-                                <table class="table table-bordered">
+                                <table class="table table-responsive table-sm table-bordered">
                                     <thead class="table-dark">
                                         <tr>
                                             <th  class="text-start" colspan="6">INFO1116 - MANTENCION Y ADMINISTRACION DE SISTEMAS</th>

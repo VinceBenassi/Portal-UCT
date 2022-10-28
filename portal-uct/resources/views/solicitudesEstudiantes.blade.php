@@ -54,7 +54,7 @@
 
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <table class="table">
+                                <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Rut</th>
@@ -82,7 +82,7 @@
                                 </select>
 
                                 <div class="collapse text-center" id="collapseCarrera">
-                                    <table class="table">
+                                    <table class="table table-responsive table-sm">
                                         <thead class="table-dark">
                                             <tr>
                                                 <th scope="col">Beneficios</th>
@@ -102,7 +102,7 @@
                                         </tbody>
                                     </table>
 
-                                    <table class="table">
+                                    <table class="table table-responsive table-sm">
                                         <thead class="table-dark">
                                             <tr>
                                                 <th scope="col">Registro</th>
@@ -164,7 +164,7 @@
                                 </select>
 
                                 <div class="collapse text-center" id="collapseCarrera">
-                                    <table class="table">
+                                    <table class="table table-responsive table-sm">
                                         <thead class="table-primary">
                                             <tr>
                                                 <th scope="col">Código Solicitud</th>
