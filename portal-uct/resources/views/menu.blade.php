@@ -63,7 +63,7 @@
                         <label for="floatingInput">Confirme su número de celular personal: </label>
                     </div>
 
-                    <button type="submit" id="buttonSub" class="btn btn-success">Grabar</button>
+                    <button type="submit" id="buttonSub" class="btn btn-success mb-3">Grabar</button>
                 </form>
             </div>
         </aside>

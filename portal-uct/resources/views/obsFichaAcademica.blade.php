@@ -33,10 +33,10 @@
 
                 <h4>El período para realizar solicitudes de Observación a la Ficha ha finalizado.</h4>
 
-                <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                 Resultados Obs. Ficha Académica
                             </button>
                         </h2>

@@ -38,7 +38,7 @@
                         </button>
                     </h2>
 
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body text-center">
                             <p>En esta sección podras consultar el estado de tu cuenta corriente.</p>
 
@@ -272,7 +272,7 @@
 
 
 
-                <div class="accordion-item">
+                <div class="accordion-item mb-3">
                     <h2 class="accordion-header" id="flush-headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                             Emisión de documentos

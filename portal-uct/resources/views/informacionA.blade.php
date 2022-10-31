@@ -40,7 +40,7 @@
                             </button>
                         </h2>
                         
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <strong>Información del Estudiante</strong>
                             
                             <table class="table table-responsive table-sm">
@@ -88,7 +88,7 @@
                             </table>
 
 
-                            <div class="container">
+                            <div class="container mb-3">
                                 <button type="button" class="btn btn-primary">Listado de Cursos</button>
                                 <button type="button" class="btn btn-primary">Competencias</button>
                                 <button type="button" class="btn btn-primary">Creditos Libre Disposicion</button>
@@ -115,7 +115,7 @@
                                         
                             <strong class="mb-3">Seleccione una Carrera:</strong>
 
-                            <select class="form-select text-center" aria-label="Default select example" data-bs-toggle="collapse" data-bs-target="#collapseCarrera" aria-expanded="false" aria-controls="collapseWidthExample">
+                            <select class="form-select text-center mb-3" aria-label="Default select example" data-bs-toggle="collapse" data-bs-target="#collapseCarrera" aria-expanded="false" aria-controls="collapseWidthExample">
                                 <option selected><strong>Seleccione una Carrera...</strong></option>
                                 <option value="1">154 - Plan: 1 : INGENIERIA CIVIL EN INFORMATICA</option>
                                 <option value="2">154 - Plan: 2 : INGENIERIA CIVIL EN INFORMATICA</option>

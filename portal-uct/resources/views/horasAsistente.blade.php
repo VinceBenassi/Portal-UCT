@@ -20,6 +20,8 @@
             <a href="" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Cerrar sesión en el sistema"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
         </article>
 
+
+        
         <aside class="mx-auto">
             <section class="container text-center">
                 <select class="form-select text-center mb-3" aria-label="Default select example">
@@ -45,7 +47,7 @@
                             </button>
                         </h2>
 
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body text-center">
                                 <strong>Información del Estudiante</strong>
                                 

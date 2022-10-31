@@ -353,7 +353,7 @@
 
 
 
-                    <div class="accordion-item">
+                    <div class="accordion-item mb-3">
                         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                                 Mis certificaciones

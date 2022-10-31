@@ -20,6 +20,8 @@
             <a href="" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Cerrar sesión en el sistema"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
         </article>
 
+
+        
         <aside class="mx-auto">
             <section class="container text-center">
                 <h1>Documentos</h1>
