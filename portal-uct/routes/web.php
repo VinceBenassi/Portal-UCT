@@ -63,6 +63,10 @@ Route::get('inscripcion', function () {
     return view('inscripcion');
 });
 
+Route::get('horario', function () {
+    return view('horario');
+});
+
 
 Route::post('/', 'App\Http\Controllers\LoginController@index')->name('inicio');
 Route::post('menu', 'App\Http\Controllers\MenuController@index')->name('menu');

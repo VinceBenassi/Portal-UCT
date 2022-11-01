@@ -74,14 +74,14 @@
                                     </tbody>
                                 </table>
 
-                                <select class="form-select text-center mb-3" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseCarrera" aria-expanded="false" aria-controls="collapseWidthExample">
+                                <select class="form-select text-center mb-3" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseBeneficios" aria-expanded="false" aria-controls="collapseWidthExample">
                                     <option selected><strong>Seleccione una Carrera...</strong></option>
                                     <option value="1">154 - Plan: 1 : INGENIERIA CIVIL EN INFORMATICA</option>
                                     <option value="2">154 - Plan: 2 : INGENIERIA CIVIL EN INFORMATICA</option>
                                     <option value="3">154 - Plan: 3 : INGENIERIA CIVIL EN INFORMATICA</option>
                                 </select>
 
-                                <div class="collapse text-center" id="collapseCarrera">
+                                <div class="collapse text-center" id="collapseBeneficios">
                                     <table class="table table-responsive table-sm">
                                         <thead class="table-dark">
                                             <tr>

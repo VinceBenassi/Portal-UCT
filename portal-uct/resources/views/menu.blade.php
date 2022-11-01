@@ -24,7 +24,7 @@
 
 
         <aside class="mx-auto col-md-4">
-            <div class="card text-center">
+            <div class="card text-center mb-3">
                 <img src="images/yo.jpg" class="card-img-top" alt="...">
                 
                 <div class="card-body">

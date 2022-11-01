@@ -32,7 +32,7 @@
                     cursos inscritos, cursos aprobados, cursos reprobados, competencias genéricas y créditos de libre disposición.
                 </p>
 
-                <div class="accordion" id="accordionExample">
+                <div class="accordion mb-3" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

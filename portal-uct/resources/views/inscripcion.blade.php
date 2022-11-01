@@ -47,15 +47,21 @@
                                 <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
                                         <tr>
-                                            <th scope="col">RUT</th>
-                                            <th scope="col">NOMBRE</th>
+                                            <th scope="col">Carrera</th>
+                                            <th scope="col">Nombre de Carrera</th>
+                                            <th scope="col">Plan</th>
+                                            <th scope="col">Mención</th>
+                                            <th scope="col">Estado Acad.</th>
                                         </tr>
                                     </thead>
                                                         
                                     <tbody>
                                         <tr>
-                                            <th>2064351647</th>
-                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
+                                            <td>154</td>
+                                            <td>INGENIERÍA CIVIL EN INFORMÁTICA</td>
+                                            <td>3</td>
+                                            <td>TECNOLOGÍAS DE LA INFORMACIÓN</td>
+                                            <td>MATRICULADO</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -83,8 +89,13 @@
                                                                 <thead class="table-dark">
                                                                     <tr>
                                                                         <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre</th>
-                                                                        <th scope="col">Tipo de curso</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
+                                                                        <th scope="col">Inscribir</th>
                                                                     </tr>
                                                                 </thead>
 
@@ -93,6 +104,15 @@
                                                                         <th></th>
                                                                         <td></td>
                                                                         <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                                                                        </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -115,8 +135,13 @@
                                                                 <thead class="table-dark">
                                                                     <tr>
                                                                         <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre</th>
-                                                                        <th scope="col">Tipo de curso</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
+                                                                        <th scope="col">Inscribir</th>
                                                                     </tr>
                                                                 </thead>
 
@@ -125,6 +150,15 @@
                                                                         <th></th>
                                                                         <td></td>
                                                                         <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                                                                        </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -147,8 +181,13 @@
                                                                 <thead class="table-dark">
                                                                     <tr>
                                                                         <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre</th>
-                                                                        <th scope="col">Tipo de curso</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
+                                                                        <th scope="col">Inscribir</th>
                                                                     </tr>
                                                                 </thead>
 
@@ -157,6 +196,15 @@
                                                                         <th></th>
                                                                         <td></td>
                                                                         <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                                                                        </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -179,8 +227,13 @@
                                                                 <thead class="table-dark">
                                                                     <tr>
                                                                         <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre</th>
-                                                                        <th scope="col">Tipo de curso</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
+                                                                        <th scope="col">Inscribir</th>
                                                                     </tr>
                                                                 </thead>
 
@@ -189,6 +242,15 @@
                                                                         <th></th>
                                                                         <td></td>
                                                                         <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                                                                        </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -211,8 +273,13 @@
                                                                 <thead class="table-dark">
                                                                     <tr>
                                                                         <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre</th>
-                                                                        <th scope="col">Tipo de curso</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
+                                                                        <th scope="col">Inscribir</th>
                                                                     </tr>
                                                                 </thead>
 
@@ -221,6 +288,15 @@
                                                                         <th></th>
                                                                         <td></td>
                                                                         <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                                                                        </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -243,8 +319,13 @@
                                                                 <thead class="table-dark">
                                                                     <tr>
                                                                         <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre</th>
-                                                                        <th scope="col">Tipo de curso</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
+                                                                        <th scope="col">Inscribir</th>
                                                                     </tr>
                                                                 </thead>
 
@@ -253,6 +334,15 @@
                                                                         <th></th>
                                                                         <td></td>
                                                                         <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                                                                        </td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -275,8 +365,12 @@
                                                                 <thead class="table-dark">
                                                                     <tr>
                                                                         <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre</th>
-                                                                        <th scope="col">Tipo de curso</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
                                                                     </tr>
                                                                 </thead>
 
@@ -285,12 +379,22 @@
                                                                         <th></th>
                                                                         <td></td>
                                                                         <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
                                                         </div>
                                                     </div>
                                                 </div>
+
+                                                <ul class="list-group list-group-flush mb-3">
+                                                    <li class="list-group-item">Créditos Disponibles: 3</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
