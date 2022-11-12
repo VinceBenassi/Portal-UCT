@@ -36,15 +36,17 @@
                     </p>
                 </div>
                 
-                <ul class="list-group list-group-flush mb-3">
-                    <li class="list-group-item">Rut: {{ $n_rut ?? '' }}</li>
-                    <li class="list-group-item">Nombres: {{ $nombres ?? '' }} </li>
-                    <li class="list-group-item">Apellido paterno: {{ $apellidop ?? '' }}</li>
-                    <li class="list-group-item">Apellido materno: {{ $apellidom ?? '' }}</li>
-                    <li class="list-group-item">Fecha de nacimiento: {{ $fecha ?? '' }}</li>
-                    <li class="list-group-item">Sexo: {{ $sexo ?? '' }}</li>
-                    <li class="list-group-item">E-mail UCTemuco: {{ $correo ?? '' }}</li>
-                </ul>
+                @foreach($usuarios as $fila)
+                    <ul class="list-group list-group-flush mb-3">
+                        <li class="list-group-item">Rut: {{ $fila->Run }}</li>
+                        <li class="list-group-item">Nombres: {{ $fila->Nombres }} </li>
+                        <li class="list-group-item">Apellido paterno: {{ $fila->ApellidoP }}</li>
+                        <li class="list-group-item">Apellido materno: {{ $fila->ApellidoM }}</li>
+                        <li class="list-group-item">Fecha de nacimiento: {{ $fila->Fecha_Nac }}</li>
+                        <li class="list-group-item">Sexo: {{ $fila->Sexo }}</li>
+                        <li class="list-group-item">E-mail UCTemuco: {{ $fila->Correo }}</li>
+                    </ul>
+                @endforeach
   
                 <form action="{{route('menu')}}">
                     @csrf

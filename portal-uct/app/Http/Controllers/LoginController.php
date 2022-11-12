@@ -18,7 +18,8 @@ class LoginController extends Controller {
             session(['rut_nro' => $_POST['rut']]);
             session(['contra' => $_POST['contra']]);
         }
-        //Declaracion de varaibles a partir de la informacion de la sesion
+
+        //Declaracion de variables a partir de la informacion de la sesion
         $n_rut = session('rut_nro');
         $n_contra  = session('contra'); 
 
@@ -34,21 +35,29 @@ class LoginController extends Controller {
             ]);
         }
 
-        //Obtencion de varaibles ingresadas
-
 
         //Pregunta si existe la persona en la BD
         $query_uct = DB::select("exec RPE.dbo.buscar_persona_rut @rut = ?, @contra = ?", [$n_rut, $n_contra]);
 
         //Redirecionamiento a las paginas segun las consultas anteriores
         if ($query_uct == []){
+            $estado = 'error';
             // Si no existe es vacio retorna al inicio
             return view('inicio', [
-                "n_rut" => $n_rut]);
-        } 
-        else{
-            return view('menu');
+                "estado" => $estado, 
+                "n_rut" => $n_rut
+            ]);
+        } else {
+            $estado = 'éxito';
+            return view('menu', [
+                "estado" => $estado
+            ]);
         }
+    }
+
+    public function logout(Request $request) {
+        $request->session()->flush();
+        return view('inicio');
     }
 
 }

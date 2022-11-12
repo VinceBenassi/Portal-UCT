@@ -24,6 +24,8 @@
                     <a href="cambiar" type="submit" class="btn btn-outline mb-3" target="_blank" rel="noopener noreferrer">Cambiar contraseña</a>
                     <a href="recuperar" type="submit" class="btn btn-outline mb-3" target="_blank" rel="noopener noreferrer">Recuperar contraseña</a>
                 </div>
+                
+                <input value="{{ $estado }}" type="text" id="estado" class="form-control hide" disabled>
             </form>
         </article>
 

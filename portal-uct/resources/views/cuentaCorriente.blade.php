@@ -124,21 +124,23 @@
                         <div class="accordion-body text-center">
                             <strong>Información del Estudiante</strong>
                             
-                            <table class="table table-sm">
-                                <thead class="table-dark">
-                                    <tr>
-                                        <th scope="col">RUT</th>
-                                        <th scope="col">NOMBRE</th>
-                                    </tr>
-                                </thead>
-                                                    
-                                <tbody>
-                                    <tr>
-                                        <th>2064351647</th>
-                                        <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            @foreach($usuarios as $dato)
+                                <table class="table table-sm">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th scope="col">RUT</th>
+                                            <th scope="col">NOMBRE</th>
+                                        </tr>
+                                    </thead>
+                                                        
+                                    <tbody>
+                                        <tr>
+                                            <th>{{ $dato->Run }}</th>
+                                            <td>{{ $dato->Nombres }} {{ $dato->ApellidoP }} {{ $dato->ApellidoM }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            @endforeach
 
                             <a href="https://pagos.uct.cl/web_pay_uct/trunk/" target="_blank" rel="noopener noreferrer">
                                 <img src="images/Logo webpay.png" class="img-fluid" alt="webpay">

@@ -124,7 +124,7 @@
 
                                     <h3>Formulario ingreso solicitud</h3>
 
-                                    <select class="form-select text-center" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseRenuncia" aria-expanded="false" aria-controls="collapseWidthExample">
+                                    <select class="form-select text-center mb-3" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseRenuncia" aria-expanded="false" aria-controls="collapseWidthExample">
                                         <option selected><strong>Tipo de solicitud..</strong></option>
                                         <option value="1">RENUNCIA</option>
                                         <option value="1">SUSPENCION</option>
@@ -136,7 +136,217 @@
                                             <p>Recordar conversar con la asistente social para informarse de los ajustes de beneficios en los casos de suspensión.</p>
                                         </div>
 
+                                        <section>
+                                            <div class="container text-center">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <p class="text-start mb-3">
+                                                            <strong>Fecha de Solicitud:</strong>
+                                                            02/10/2022
+                                                        </p>
 
+                                                        <p class="text-start mb-3">
+                                                            <strong>Semestre y Año de la Solicitud:</strong>
+                                                            Segundo Semestre de 2022
+                                                        </p>
+
+                                                        <p class="text-start mb-1">
+                                                            <strong>Desde:</strong>
+                                                        </p>
+
+                                                        <p class="card-text col-5">
+                                                            <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                <option selected><strong>Semestre..</strong></option>
+                                                                <option value="1">Primer Semestre</option>
+                                                                <option value="2">Segundo Semestre</option>
+                                                            </select>
+                                                        </p>
+                                                        
+                                                        <p class="card-text col-5">
+                                                            <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                <option selected><strong>Año..</strong></option>
+                                                                <option value="1">2022</option>
+                                                            </select>
+                                                        </p>
+                                                    </div>
+                                        
+                                                    <div class="col-md-6">
+                                                        <p class="text-start mb-1">
+                                                            <strong>Motivos:</strong>
+                                                        </p>
+
+                                                        <p class="card-text">
+                                                            <select id="Motivos" class="form-select text-center mb-3" aria-label="Default select example">
+                                                                <option selected><strong>...</strong></option>
+                                                                <option value="opc1">ACADEMICO</option>
+                                                                <option value="opc2">CAMBIO DE UNIVERSIDAD</option>
+                                                                <option value="opc3">CAMBIO INTERNO UCT</option>
+                                                                <option value="opc4">DISCONFORMIDAD CARRERA</option>
+                                                                <option value="opc5">DISCONFORMIDAD UNIVERSIDAD</option>
+                                                                <option value="opc6">ECONOMICOS</option>
+                                                                <option value="opc7">HIJOS</option>
+                                                                <option value="opc8">OTROS</option>
+                                                                <option value="opc9">PERSONALES</option>
+                                                                <option value="opc10">SALUD</option>
+                                                                <option value="opC11">TRANSTORNO</option>
+                                                                <option value="opc12">VOCACION</option>
+                                                            </select>
+
+                                                            <div class="Motivos_hide Motivos_opc1">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>BAJO RENDIMIENTO EN CURSOS DE CIENCIAS BASICAS</option>
+                                                                    <option>BAJO RENDIMIENTO EN CURSOS DE LA CARRERA</option>
+                                                                    <option>BAJO RENDIMIENTO GENERAL</option>
+                                                                    <option>BAJO RENDIMIENTO POR INASISTENCIAS</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc2">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>CAMBIO DE CARRERA OTRA UNIVERSIDAD</option>
+                                                                    <option>CAMBIO MISMA CARRERA OTRA UNIVERSIDAD</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc3">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>CAMBIO CARRERA UCT</option>
+                                                                    <option>REINGRESA MISMA CARRERA VIA PSU UCT</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc4">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>DISCONFORMIDAD ACADEMICOS</option>
+                                                                    <option>DISCONFORMIDAD ATENCION ADMINISTRATIVOS DE LA CARRERA</option>
+                                                                    <option>DISCONFORMIDAD CON ITINERARIO FORMATIVO</option>
+                                                                    <option>DISCONFORMIDAD GESTION DE LA CARRERA (DIRECTOR)</option>
+                                                                    <option>DISCONFORMIDAD INFRAESTRUCTURA</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc5">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>DISCONFORMIDAD AMBIENTE UNIVERSITARIO</option>
+                                                                    <option>DISCONFORMIDAD ATENCION ADMINISTRATIVOS DE LA UNIVERSIDAD</option>
+                                                                    <option>DISCONFORMIDAD MOVILIZACIONES ESTUDIANTILES</option>
+                                                                    <option>DISCONFORMIDAD TRAMITES BUROCRATICOS</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc6">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>PROBLEMAS ECONOMICOS</option>
+                                                                    <option>PROBLEMAS LABORALES</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc7">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>CUIDADO DE HIJOS</option>
+                                                                    <option>EMBARAZO</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc8">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>OTROS</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc9">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>OTROS PROBLEMAS PERSONALES</option>
+                                                                    <option>SERVICIO MILITAR</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc10">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>DISCAPACIDAD</option>
+                                                                    <option>PROBLEMAS DE SALUD</option>
+                                                                    <option>PROBLEMAS DE SALUD DE FAMILIARES</option>
+                                                                    <option>PROBLEMAS DE PSICOLOGICOS Y/O PSIQUIATRICOS</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc11">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>VOCACION</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="Motivos_hide Motivos_opc12">
+                                                                <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                    <option selected><strong>...</strong></option>
+                                                                    <option>TRANSLADO DE CIUDAD</option>
+                                                                    <option>TRANSLADO DE PAIS</option>
+                                                                    <option>TRANSLADO DE REGION</option>
+                                                                </select>
+                                                            </div>
+                                                            
+                                                            
+                                                            <script type="text/javascript">
+                                                            $('.Motivos_hide').addClass('collapse');
+                                                            $('#Motivos').change(function(){
+                                                                var selector = '.Motivos_' + $(this).val();
+                                                                $('.Motivos_hide').collapse('hide');
+                                                                $(selector).collapse('show');
+                                                            });
+                                                            </script>
+                                                            
+                                                        </p>
+                                                        <a class="btn btn-primary mb-3" href="" role="button">Agregar</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <p class="mb-3">
+                                                            <a href="#" class="text-decoration-none">Motivo</a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <p class="mb-3">
+                                                            <a href="#" class="text-decoration-none">Descripcion</a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <p class="mb-3">
+                                                            <a href="#" class="text-decoration-none">Borrar</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <p class="text-start mb-3">
+                                                    <strong>Detalles Motivos: </strong>
+                                                </p>
+
+                                                <form id="feedback_form">
+                                                    <textarea class="form-control col-md-8 mb-2 id="t1" maxlength="400" rows="3"> </textarea>
+                                                    <label class="mb-3" for="label1">400 caracteres maximos</label>
+                                                </form>
+
+                                                <div class="col-md-4">
+                                                    <p class="text-start mb-3">
+                                                        <a class="btn btn-primary mb-3" href="" role="button">Enviar Solicitud</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>

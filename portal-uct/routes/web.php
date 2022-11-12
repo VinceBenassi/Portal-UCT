@@ -7,10 +7,6 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-Route::get('menu', function () {
-    return view('menu');
-});
-
 Route::get('biblioteca', function () {
     return view('biblioteca');
 });
@@ -67,6 +63,5 @@ Route::get('horario', function () {
     return view('horario');
 });
 
-
 Route::post('/', 'App\Http\Controllers\LoginController@index')->name('inicio');
-Route::post('menu', 'App\Http\Controllers\MenuController@index')->name('menu');
+Route::post('menu', 'App\Http\Controllers\UsuarioController@index')->name('menu');

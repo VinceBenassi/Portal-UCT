@@ -86,7 +86,77 @@
                                                 <th>
                                                     <p>La reserva quedará agendada en el campus: CAMPUS SAN JUAN PABLO II</p>
 
-                                                    
+                                                    <section>
+                                                        <div class="container text-center">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <p>1. Seleccione una fecha para reserva.</p>
+
+                                                                    <section class="container"> 
+                                                                        <form>
+                                                                            <div class="row form-group">                                                                                
+                                                                                <div class="input-group date" id="datepicker">
+                                                                                    <div class="col-sm-10">
+                                                                                        <input type="text" class="form-control mb-3">
+                                                                                    </div>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </section>
+
+                                                                    <script type="text/javascript">
+                                                                            $('.date').datepicker({ 
+                                                                                format: 'dd-mm-yyyy',
+                                                                                language: 'es', 
+                                                                            });    
+                                                                    </script>
+                                                                </div>
+
+                                                                <div class="col-md-6">
+                                                                    <p>2. Fecha escogida para reserva.</p>
+                                                                    
+                                                                    <div class="text-center">
+                                                                        <h3 class="mb-4">
+                                                                            04/11/2022
+                                                                        </h3>
+
+                                                                        <p class="text-start">
+                                                                            Asistente:
+                                                                        </p>
+
+                                                                        <p class="card-text">
+                                                                            <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                                <option selected><strong>Seleccione la Asistente..</strong></option>
+                                                                                <option value="1">MARIA GABRIELA SORUCO BEURET</option>
+                                                                                <option value="2">CRISTHIAN EDUARD LIBERONA BARRIGA</option>
+                                                                                <option value="3">AXEL GARRIDO JELVEZ</option>
+                                                                            </select>
+                                                                        </p>
+
+                                                                        <p class="text-start">
+                                                                            Hora:
+                                                                        </p>
+
+                                                                        <p class="card-text">
+                                                                            <select class="form-select text-center mb-3" aria-label="Default select example">
+                                                                                <option selected><strong>Seleccione la Hora..</strong></option>
+                                                                                <option value="1">13:00</option>
+                                                                                <option value="2">10:00</option>
+                                                                                <option value="3">17:00</option>
+                                                                            </select>
+                                                                        </p>
+                                                                    </div>
+
+                                                                    <a class="btn btn-primary mb-3" href="" role="button">RESERVAR</a>
+
+                                                                    <div class="alert alert-danger" role="alert">
+                                                                        RESERVA EN: CAMPUS SAN JUAN PABLO II
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>    
+                                                    </section>
                                                 </th>
                                             </tr>
                                         </tbody>

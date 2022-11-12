@@ -16,6 +16,15 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
+        <!-- Bootstrap Datapiker-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.es.min.js" charset="UTF-8"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.css"/>
+
         <style>
             /* Navegación modo oscuro*/
             body.darkmode {
@@ -108,7 +117,7 @@
 
     <!-- Cuerpo principal -->
     <body>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://www.uct.cl/" target="_blank" rel="noopener noreferrer">
                     <img src="images/iconoUCT.png" alt="UCT" width="30" height="30">
@@ -185,7 +194,7 @@
             <div class="pt-5 pb-5 footer">
                 <div class="container">
 
-                    <!-- Bot de Ayuda-->
+                    <!-- Bot de Ayuda -->
                     <script>
                         (function(b, c) {
                             var e = document.createElement('link');
@@ -202,7 +211,7 @@
                             }, f.src = 'https://chatboxlive.blahbox.net/static/js/chat-lib.js', document.getElementsByTagName('head')[0].appendChild(f)
                         })('eb5baa9b362630e3b6c93e6cd2b1db2d', 0);
                     </script>
-                    <!-- Bot de Ayuda-->
+                    <!-- Bot de Ayuda -->
 
 
 
@@ -333,6 +342,31 @@
 
 
         <script>
+            // Script encargado de devolver la alerta según el valor que tenga el input oculto de id "estado"
+            $(document).ready(function() {
+                var estado = document.getElementById("estado").value;
+                // En caso de error arroja una alerta de error y vuelve a la vista inicio
+                if (estado == 'error'){
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Los datos ingresados no son válidos',
+                        showConfirmButton: false,
+                        timer: 2000,
+                    })
+                }
+                else{
+                // En caso de exito arroja una alerta de success y retorna la vista de inicio
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Ha iniciado sesión con éxito',
+                        showConfirmButton: false,
+                        timer: 4500,
+                    }).then(function(){
+                        window.location.href = "/";
+                    });
+                }          
+            });
+
             // Esta función evita colocar letras en el input del RUN
             function validate(evt) {
                 var theEvent = evt || window.event;
