@@ -12,7 +12,7 @@ class CreateUsuariosTable extends Migration {
             $table->string('Nombres');
             $table->string('ApellidoP');
             $table->string('ApellidoM');
-            $table->date('Fecha_Nac');
+            $table->dateTime('Fecha_Nac');
             $table->string('Sexo');
             $table->string('Correo');
             $table->string('Contraseña');
@@ -23,6 +23,7 @@ class CreateUsuariosTable extends Migration {
             $table->integer('Plan');
             $table->string('Mención');
             $table->string('EstadoAcad');
+            $table->string('Imagen');
             $table->timestamps();
         });
     }

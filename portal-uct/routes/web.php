@@ -1,10 +1,13 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\MenuController;
 
 Route::get('/', function () {
     return view('inicio');
+});
+
+Route::get('menu', function () {
+    return view('menu');
 });
 
 Route::get('biblioteca', function () {
@@ -64,4 +67,6 @@ Route::get('horario', function () {
 });
 
 Route::post('/', 'App\Http\Controllers\LoginController@index')->name('inicio');
-Route::post('menu', 'App\Http\Controllers\UsuarioController@index')->name('menu');
+Route::post('inscripcion', 'App\Http\Controllers\LoginController@index')->name('inscripcion');
+
+Route::post('logout', 'App\Http\Controllers\LoginController@logout');

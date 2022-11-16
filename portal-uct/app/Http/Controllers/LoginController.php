@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
+use App\Models\Usuario;
 
 class LoginController extends Controller {
 
@@ -33,31 +35,51 @@ class LoginController extends Controller {
             request()->validate([
                 'rut'=>'required_without:rut|digits:9'
             ]);
-        }
 
+            //Pregunta si existe la persona en la BD
+            $query_uct = DB::select("exec RPE.dbo.buscar_persona_rut @rut = ?, @contra = ?", [$n_rut, $n_contra]);
 
-        //Pregunta si existe la persona en la BD
-        $query_uct = DB::select("exec RPE.dbo.buscar_persona_rut @rut = ?, @contra = ?", [$n_rut, $n_contra]);
+            //Redirecionamiento a las paginas segun las consultas anteriores
+            if ($query_uct == []){
+                $estado = 'error';
+                // Si no existe es vacio retorna al inicio
+                return view('inicio', [
+                    "n_rut" => $n_rut,
+                    "n_contra" => $n_contra,
+                    'estado' => $estado
+                ]);
+            } else {
+                $estado = 'éxito';
 
-        //Redirecionamiento a las paginas segun las consultas anteriores
-        if ($query_uct == []){
-            $estado = 'error';
-            // Si no existe es vacio retorna al inicio
-            return view('inicio', [
-                "estado" => $estado, 
-                "n_rut" => $n_rut
-            ]);
-        } else {
-            $estado = 'éxito';
-            return view('menu', [
-                "estado" => $estado
-            ]);
+                // Realizamos la consulta a la BD para obtener todos los datos de la tabla Usuarios
+                $usuarios = DB::table('usuarios')
+                            ->select('*')
+                            ->where('Run', $n_rut)
+                            ->get();
+
+                // Agregamos la ruta de la foto de perfil de cada estudiante
+                $foto = $request->all();
+
+                if($imagen = $request->file('file')){
+                    $nombre = $imagen->getClientOriginalName();
+                    $imagen->move('fotos', $nombre);
+                    $foto['Imagen']=$nombre;
+                }
+
+                return view('menu', [
+                    'estado' => $estado,
+                    'usuarios' => $usuarios
+                ]);
+            }
         }
     }
 
     public function logout(Request $request) {
-        $request->session()->flush();
-        return view('inicio');
-    }
+        Auth::logout();
 
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/')->with('status', 'Has cerrado sesión');
+    }
 }

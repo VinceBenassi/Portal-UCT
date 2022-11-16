@@ -21,6 +21,7 @@ class Usuario extends Model {
         'NombreCarrera',
         'Plan',
         'Mención',
-        'EstadoAcad'
+        'EstadoAcad',
+        'Imagen'
     ];
 }

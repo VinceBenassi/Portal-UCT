@@ -102,6 +102,11 @@
                 color: #e1bd4f;
             }
 
+            .card {
+                width: 60%;
+                margin: 0 auto;
+            }
+
             .btn-outline {
                 background-color: lightgrey;
                 color: black;
@@ -110,6 +115,10 @@
             h3 {
                 font-family: 'Noto Sans SC', sans-serif;
                 font-weight: bold;
+            }
+
+            .acad{
+                display: inline;
             }
         </style>
     </head>
@@ -195,21 +204,20 @@
                 <div class="container">
 
                     <!-- Bot de Ayuda -->
-                    <script>
-                        (function(b, c) {
-                            var e = document.createElement('link');
-                            e.rel = 'stylesheet', e.type = 'text/css', e.href = 'https://chatboxlive.blahbox.net/static/css/main.css', document.getElementsByTagName('head')[0].appendChild(e);
-                            var f = document.createElement('script');
-                            f.onload = function() {
-                                var g;
-                                if (c) g = 'previewInit';
-                                else {
-                                    var h = document.createElement('div');
-                                    g = 'cbinit', h.id = 'cbinit', document.body.append(h)
-                                }
-                                console.log(document.querySelector('#' + g)), chatbox.initChat(document.querySelector('#' + g), b, c)
-                            }, f.src = 'https://chatboxlive.blahbox.net/static/js/chat-lib.js', document.getElementsByTagName('head')[0].appendChild(f)
-                        })('eb5baa9b362630e3b6c93e6cd2b1db2d', 0);
+                    <script> 
+                        (function(b,c){var e=document.createElement('link');
+                        e.rel='stylesheet',e.type='text/css',
+                        e.href='https://chatboxlive.blahbox.net/static/css/main.css',
+                        document.getElementsByTagName('head')[0].appendChild(e); 
+                        var f=document.createElement('script');
+                        f.onload=function(){var g;if(c)g='previewInit';
+                        else{var h=document.createElement('div');
+                        g='cbinit',
+                        h.id='cbinit',
+                        document.body.append(h)} console.log(document.querySelector('#'+g)),
+                        chatbox.initChat(document.querySelector('#'+g),b,c)},
+                        f.src='https://chatboxlive.blahbox.net/static/js/chat-lib.js',
+                        document.getElementsByTagName('head')[0].appendChild(f)}) ('8202e2b4d740d6ac29fbf48fa7843790', 0);
                     </script>
                     <!-- Bot de Ayuda -->
 
