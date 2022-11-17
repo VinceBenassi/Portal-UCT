@@ -130,6 +130,10 @@
                                         <option value="1">SUSPENCION</option>
                                     </select>
 
+
+
+                                Estás fuera de plazo para realizar la Suspensión, por favor diríjase a DARA para más información.
+
                                     <div class="collapse text-center" id="collapseRenuncia">
                                         <div class="alert alert-primary mb-3" role="alert">
                                             <h4 class="alert-heading">Con Beneficio Estudiantil.</h4>

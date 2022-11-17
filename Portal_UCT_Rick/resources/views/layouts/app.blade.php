@@ -24,8 +24,6 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.es.min.js" charset="UTF-8"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.css"/>
-        
-        
 
         <style>
             /* Navegación modo oscuro*/
@@ -79,29 +77,49 @@
                 color: black;
             }
 
+            .darkmode div{
+                color: white;
+            }
+            .darkmode .accordion-item{
+                background-color: #3c3939;
+            }
+            .darkmode .accordion-button{
+                background-color: #3c3939;
+                color: white;
+            }
+            
+
+
 
             /* Navegación Fondo Blanco */
             body {
                 transition: all 0.4s;
+        
+                
             }
 
             .navbar {
-                background-color: #1c335f;
+                background-color: #00568e;
             }
 
             footer {
-                background-color: #1c335f;
-                color: #cda52b;
+                background-color: #00568e;
+                color:white /*#cda52b*/;
             }
 
             article a {
-                background-color: #1c335f;
-                color: white;
+                background-color:#00568e;
+                color: #f8bf19;
                 text-decoration: none;
             }
 
             .nav-link {
-                color: #e1bd4f;
+                color: white/*#e1bd4f*/;
+            }
+
+            .card {
+                width: 60%;
+                margin: 0 auto;
             }
 
             .btn-outline {
@@ -113,13 +131,17 @@
                 font-family: 'Noto Sans SC', sans-serif;
                 font-weight: bold;
             }
+
+            .acad{
+                display: inline;
+            }
         </style>
     </head>
 
 
     <!-- Cuerpo principal -->
     <body>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://www.uct.cl/" target="_blank" rel="noopener noreferrer">
                     <img src="images/iconoUCT.png" alt="UCT" width="30" height="30">
@@ -196,24 +218,23 @@
             <div class="pt-5 pb-5 footer">
                 <div class="container">
 
-                    <!-- Bot de Ayuda-->
-                    <script>
-                        (function(b, c) {
-                            var e = document.createElement('link');
-                            e.rel = 'stylesheet', e.type = 'text/css', e.href = 'https://chatboxlive.blahbox.net/static/css/main.css', document.getElementsByTagName('head')[0].appendChild(e);
-                            var f = document.createElement('script');
-                            f.onload = function() {
-                                var g;
-                                if (c) g = 'previewInit';
-                                else {
-                                    var h = document.createElement('div');
-                                    g = 'cbinit', h.id = 'cbinit', document.body.append(h)
-                                }
-                                console.log(document.querySelector('#' + g)), chatbox.initChat(document.querySelector('#' + g), b, c)
-                            }, f.src = 'https://chatboxlive.blahbox.net/static/js/chat-lib.js', document.getElementsByTagName('head')[0].appendChild(f)
-                        })('eb5baa9b362630e3b6c93e6cd2b1db2d', 0);
+                    <!-- Bot de Ayuda -->
+                    <script> 
+                        (function(b,c){var e=document.createElement('link');
+                        e.rel='stylesheet',e.type='text/css',
+                        e.href='https://chatboxlive.blahbox.net/static/css/main.css',
+                        document.getElementsByTagName('head')[0].appendChild(e); 
+                        var f=document.createElement('script');
+                        f.onload=function(){var g;if(c)g='previewInit';
+                        else{var h=document.createElement('div');
+                        g='cbinit',
+                        h.id='cbinit',
+                        document.body.append(h)} console.log(document.querySelector('#'+g)),
+                        chatbox.initChat(document.querySelector('#'+g),b,c)},
+                        f.src='https://chatboxlive.blahbox.net/static/js/chat-lib.js',
+                        document.getElementsByTagName('head')[0].appendChild(f)}) ('8202e2b4d740d6ac29fbf48fa7843790', 0);
                     </script>
-                    <!-- Bot de Ayuda-->
+                    <!-- Bot de Ayuda -->
 
 
 
@@ -344,6 +365,31 @@
 
 
         <script>
+            // Script encargado de devolver la alerta según el valor que tenga el input oculto de id "estado"
+            $(document).ready(function() {
+                var estado = document.getElementById("estado").value;
+                // En caso de error arroja una alerta de error y vuelve a la vista inicio
+                if (estado == 'error'){
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Los datos ingresados no son válidos',
+                        showConfirmButton: false,
+                        timer: 2000,
+                    })
+                }
+                else{
+                // En caso de exito arroja una alerta de success y retorna la vista de inicio
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Ha iniciado sesión con éxito',
+                        showConfirmButton: false,
+                        timer: 4500,
+                    }).then(function(){
+                        window.location.href = "/";
+                    });
+                }          
+            });
+
             // Esta función evita colocar letras en el input del RUN
             function validate(evt) {
                 var theEvent = evt || window.event;
