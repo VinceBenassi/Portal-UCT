@@ -206,7 +206,7 @@
                                                     
                                                     <div class="card-body">
                                                         <p>El formulario debe ser completado y entregado impreso en tu carrera.</p>
-                                                        <a class="btn btn-primary" href="https://estudiantes.uct.cl/certificados_firmas_digitales/documentos/formulario_apelacion.pdf" role="button">Descargar Convenio</a>
+                                                        <a class="btn btn-primary" href="https://estudiantes.uct.cl/certificados_firmas_digitales/documentos/formulario_apelacion.pdf" role="button">Descargar Formulario</a>
                                                     </div>
                                                 </div>
                                             </div>
