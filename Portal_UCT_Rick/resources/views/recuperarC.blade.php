@@ -4,7 +4,7 @@
 
 @section('contenido')
     <section class="container text-center">
-        <h1>Recuperar contraseña</h1>
+        <h2>Recuperar contraseña</h2>
 
         <form>
             <div class="mb-3 ">

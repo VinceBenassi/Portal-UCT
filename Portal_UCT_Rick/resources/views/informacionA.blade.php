@@ -5,21 +5,7 @@
 @section('contenido')
     <!-- Funciones generales -->
     <section class="d-sm-flex">
-        <article id="sidebar-container" class="text-center">
-            <a href="menu" class="d-block p-3"><i class="fa-solid fa-id-badge"></i> Inicio</a>
-            <a href="inscripcion" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title=""><i class="fa-brands fa-discourse"></i> Inscripción de Cursos</a>
-            <a href="notap" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Solicitud para dejar nota pendiente"><i class="fas fa-file-signature"></i> Solicitud Nota P</a>
-            <a href="biblioteca" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Consulta deuda biblioteca"><i class="fa-solid fa-book"></i> Préstamos Biblioteca</a>
-            <a href="informacionacademica" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Historia académica, cursos inscritos"><i class="fa-solid fa-file-invoice"></i> Información Académica</a>
-            <a href="notas" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Notas parciales, asistencia"><i class="fa-solid fa-rectangle-list"></i> Notas Parciales</a>
-            <a href="cuenta" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Cta. corriente, beneficios, crédito complementario, emisión pagaré"><i class="fa-solid fa-credit-card"></i> Cuenta Corriente</a>
-            <a href="asistente" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Reserva de horas para asistentes sociales"><i class="fa-solid fa-clock"></i> Horas Asistente Social</a>
-            <a href="documentos" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Certificado estudiante regular, formularios, formas de pago PAT"><i class="fa-solid fa-file"></i> Documentos</a>
-            <a href="solicitudes" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Renuncia, suspensión, reincorporación"><i class="fa-solid fa-file-signature"></i> Solicitudes Estudiantes</a>
-            <a href="observacion" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Observación y resultados ficha académica"><i class="fa-solid fa-clipboard-list"></i> Obs. Ficha Académica</a>
-            <a href="certificado" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Información sobre los certificados académicos"><i class="fa-solid fa-stamp"></i> Certificado Académico</a>
-            <a href="" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Cerrar sesión en el sistema"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
-        </article>
+        @include('partials.lateral')
 
 
 
@@ -42,8 +28,9 @@
                         
                         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <strong>Información del Estudiante</strong>
-                            
-                            <table class="table table-responsive table-sm">
+
+                            <div class="table-responsive">
+                            <table class="table table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">RUT</th>
@@ -58,12 +45,12 @@
                                     </tr>
                                 </tbody>
                             </table>
-
-
+                            </div>
 
                             <strong>Información de la Carrera</strong>
-                                
-                            <table class="table table-responsive table-sm">
+
+                            <div class="table-responsive">
+                            <table class="table table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">Cód. Carrera</th>
@@ -86,7 +73,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-
+                            </div>
 
                             <div class="container mb-3">
                                 <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Listado de Cursos</button>
@@ -109,7 +96,8 @@
                                     <option>Curdos Aprobados</option>
                                 </select>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Año</th>
@@ -179,12 +167,14 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                </div>
 
                             </div>
                             <div id="demo2" class="collapse">
                                 <h1 class="mb-3">Competencias Genéricas</h1>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Fecha</th>
@@ -262,13 +252,15 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                </div>
                                 
 
                             </div>
                             <div id="demo3" class="collapse">
                                 <h1 class="mb-3">Créditos Libre Disposición</h1>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Actividad</th>
@@ -278,13 +270,15 @@
                                         </tr>
                                     </thead>
                                 </table>
+                                </div>
 
                             </div>
 
                             <div id="demo4" class="collapse">
                                 <h1 class="mb-3">Prueba Producción de Textos</h1>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Año</th>
@@ -306,6 +300,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                </div>
 
                             </div>
                             <div id="demo5" class="collapse">
@@ -344,7 +339,8 @@
                             <div class="collapse text-center" id="collapseCarrera">
                                 <h2>Información de la carrera</h2>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Cód. Carrera</th>
@@ -367,6 +363,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                </div>
 
                                 <strong>El siguiente formulario:</strong>
 
@@ -377,7 +374,8 @@
 
                                 <h4>Carga Académica</h4>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Año</th>
@@ -491,13 +489,14 @@
                                             <td>MIN</td>
                                         </tr>
                                     </tbody>
-                                </table> 
+                                </table>
+                                </div>
                                 
-
                                 
                                 <h4>Salas Asignadas</h4>
                                 
-                                <table class="table table-responsive table-sm table-bordered">
+                                <div class="table-responsive">
+                                <table class="table table-sm table-bordered">
                                     <thead class="table-dark">
                                         <tr>
                                             <th  class="text-start" colspan="6">INFO1116 - MANTENCION Y ADMINISTRACION DE SISTEMAS</th>
@@ -600,6 +599,7 @@
                                         </tr>
                                     </tbody>              
                                 </table>
+                                </div>
                             </div>
                         </div>
                     </div>

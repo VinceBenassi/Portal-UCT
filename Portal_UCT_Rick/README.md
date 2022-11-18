@@ -1,66 +1,90 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Rediseño Portal Estudiante
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este proyecto esta dirigido al rediseño de las interfaces y de ciertos modulos de la plataforma estudiantil de la universidad catolica de temuco, la cual al contar con una plataforma cuyo diseño no es visualmente agradable para el usuario necesita una remodelación, a lo cual esta avocado este proyecto, cabe destacar que las tecnologias que se usaran para este rediseño seran:
 
-## About Laravel
+<br>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Laravel 8
+- SQL server
+- Boostrap
+- HTML
+- PHP
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Para implementar dichas herramientas y/o tecnologias los pasos para su correcta instalación 
 
-## Learning Laravel
+<br>
+Descargamos la versiòn de php que deseamos utilizar
+accediendo al siguiente link
+<br>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```
+https://www.php.net/downloads.php
+```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<br>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Posterior a este paso procedemos a descargar de la misma forma composer accediendo al siguiente link 
 
-## Laravel Sponsors
+```
+https://getcomposer.org/
+```
+Instalamos laravel 8 para windows o linux segun corresponda siguiendo las intrucciones de este repositorio de github, dicho repositorio contiene las intrucciones basicas asi como la verificaciòn de la funcionalidad de las herramientas intaladas hasta el momento.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```
+https://github.com/devfy-space/laravel-desde-cero
+```
+<br>
 
-### Premium Partners
+Ademas debemos instalar SQL Server, asi como un manjeador de entorno llamado dBeaver.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+```
+https://dbeaver.io/download/
+```
+<br>
 
-## Contributing
+## Visualización plataforma portal estudiante
+<p>
+    El nuevo diseño de la plataforma estudiantil cuenta con diversos matices los cuales muestran una mejora en torno a la plataforma original, para empezar el diseño es mucho mas agradable, en vista de celular, siendo este ultimo  responsivo
+<p>
+<br>
+<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='https://cdn.discordapp.com/attachments/624718436261560323/1029810460486291466/unknown.png'>
+<br>
+<p>
+    dentro de las nuevas funciones se puede observar un pequeño apartado el cual es el chartbot, dicho elemento   fue desarrollado mediante el uso de inteligencia artificial y la api de google clud Dialogflow
+<p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```
+https://dialogflow.cloud.google.com/
+```
 
-## Code of Conduct
+## Uso de herramientas
+Dialogflow:<br>
+dicha herramienta es propiedad de google cloud por lo cual una de sus ventajas es que permite el trabajo colaborativo con cuentas de google
+<br>
+ 
+<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='https://cdn.discordapp.com/attachments/624718436261560323/1029815008697262100/unknown.png'>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<br>
+dialogflow nos permite usar de manera instintiva la creación de agents los cuales seran los encargados de manejar las acciones de consultas solicitadas mas tarde
 
-## Security Vulnerabilities
+<br>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='https://cdn.discordapp.com/attachments/624718436261560323/1029815683938259044/unknown.png'>
 
-## License
+<br>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+dentro de la sección entities sera donde crearemos y definiremos las palabras claves asi como las la estructura de el lenguaje natural que recibira como parametro de entrada nuestro agente
+
+<br>
+
+<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='https://cdn.discordapp.com/attachments/624718436261560323/1029816250873938000/unknown.png'>
+
+<br>
+
+luego se debe proceder al apartado de intents donde definiremos las palabras de entrenamiento que tendra el bot asi como sus posibles respuestas
+
+<br>
+
+<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='https://cdn.discordapp.com/attachments/624718436261560323/1029816716814975007/unknown.png'>

@@ -4,27 +4,13 @@
 
 @section('contenido')
     <section class="d-sm-flex">
-        <article id="sidebar-container" class="text-center">
-            <a href="menu" class="d-block p-3"><i class="fa-solid fa-id-badge"></i> Inicio</a>
-            <a href="inscripcion" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title=""><i class="fa-brands fa-discourse"></i> Inscripción de Cursos</a>
-            <a href="notap" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Solicitud para dejar nota pendiente"><i class="fas fa-file-signature"></i> Solicitud Nota P</a>
-            <a href="biblioteca" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Consulta deuda biblioteca"><i class="fa-solid fa-book"></i> Préstamos Biblioteca</a>
-            <a href="informacionacademica" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Historia académica, cursos inscritos"><i class="fa-solid fa-file-invoice"></i> Información Académica</a>
-            <a href="notas" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Notas parciales, asistencia"><i class="fa-solid fa-rectangle-list"></i> Notas Parciales</a>
-            <a href="cuenta" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Cta. corriente, beneficios, crédito complementario, emisión pagaré"><i class="fa-solid fa-credit-card"></i> Cuenta Corriente</a>
-            <a href="asistente" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Reserva de horas para asistentes sociales"><i class="fa-solid fa-clock"></i> Horas Asistente Social</a>
-            <a href="documentos" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Certificado estudiante regular, formularios, formas de pago PAT"><i class="fa-solid fa-file"></i> Documentos</a>
-            <a href="solicitudes" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Renuncia, suspensión, reincorporación"><i class="fa-solid fa-file-signature"></i> Solicitudes Estudiantes</a>
-            <a href="observacion" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Observación y resultados ficha académica"><i class="fa-solid fa-clipboard-list"></i> Obs. Ficha Académica</a>
-            <a href="certificado" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Información sobre los certificados académicos"><i class="fa-solid fa-stamp"></i> Certificado Académico</a>
-            <a href="" class="d-block p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Cerrar sesión en el sistema"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
-        </article>
+        @include('partials.lateral')
 
 
 
         <aside class="mx-auto">
             <!--Contenido-->
-            <section class="container text-center mb-2">
+            <section class="container text-center">
                 <h1>Solicitar Nota Pendiente de Evaluación</h1>
                 
                 <p>
@@ -55,54 +41,215 @@
 
                                 <strong>Selecciona un accion:</strong>
 
-                                <select class="form-select text-center" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseSemestre" aria-expanded="false" aria-controls="collapseWidthExample">
-                                    <option selected><strong>Seleccionar Accion...</strong></option>
-                                    <option value="1">Primer semestre</option>
-                                    <option value="2">Segundo semestre</option>
+                                <!--                -->
+
+                                <select class="form-select text-center mb-3" id="accion" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseSemestre" aria-expanded="false" aria-controls="collapseWidthExample">
+                                    <option selected><strong>...</strong></option>
+                                    <option value="opc1">NUEVA SOLICITUD</option>
+                                    <option value="opc2">PRORROGA</option> 
                                 </select>
-
-                                <div class="collapse text-center" id="collapseSemestre">
-                                    <strong>Selecciona un curso:</strong>
-
-                                    <select class="form-select text-center" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseCurso" aria-expanded="false" aria-controls="collapseWidthExample">
-                                        <option selected><strong>Selecciona un curso...</strong></option>
-                                        <option value="1">Algoritmos de Optimización</option>
-                                        <option value="2">Robótica</option>
-                                        <option value="3">Cálculo Avanzado</option>
-                                    </select>
-
-                                    <div class="collapse text-center" id="collapseCurso">
-                                        <strong>Notas parciales</strong>
-
-                                        <table class="table table-responsive table-sm">
+                                
+                                <div class="accion_hide accion_opc1">
+                                    <h3 class=" text-center">DATOS DE LA SOLICITUD</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm mb-5">
                                             <thead class="table-dark">
                                                 <tr>
-                                                    <th scope="col">Descripcion</th>
-                                                    <th scope="col">Fecha</th>
-                                                    <th scope="col">Porcentaje</th>
-                                                    <th scope="col">Nota</th>
-                                                    <th scope="col">Tipo de Evaluacion</th>
+                                                    <th scope="col">Estudiante</th>
+                                                    <th scope="col">Rut</th>
+                                                    <th scope="col">Registro</th>
+                                                    <th scope="col">carrera</th>
+                                                    <th scope="col">Plan</th>
+                                                    <th scope="col">Mencion</th>
+                                                    <th scope="col">Tipo solicitud</th>
                                                 </tr>
                                             </thead>
-
+                                                                                
                                             <tbody>
                                                 <tr>
-                                                    <th>hjhj</th>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
+                                                    <th>Pablo Gomez</th>
+                                                    <th>21181012-2</th>
+                                                    <th>2021012008</th>
+                                                    <th>154-INGENIERÍA CIVIL EN INFORMÁTICA</th>
+                                                    <th>3</th>
+                                                    <th>Sin mencion</th>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
+                                    <h5 class="text-center">CURSOS INSCRITOS EN EL SEMESTRE 2 AÑO 2022</h5>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">SEL.</th>
+                                                    <th scope="col">SIGLA</th>
+                                                    <th scope="col">NOMBRE CURSO</th>
+                                                    <th scope="col">SECCION</th>
+                                                    <th scope="col">AÑO INSC.</th>
+                                                </tr>
+                                            </thead>
+                                                                                
+                                            <tbody>
+                                                <tr>
+                                                    <th><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></th>
+                                                    <th>DDO1054</th>
+                                                    <th>MÚSICA Y TEOLOGÍA</th>
+                                                    <th>1</th>
+                                                    <th>2022 </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">MOTIVO</th>
+                                                    <th scope="col">OBSERVACION</th>
+                                                </tr>
+                                            </thead>
+                                                                                
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                                <option selected>Seleccione motivo</option>
+                                                                <option value="1">academico</option>
+                                                                <option value="2">Hijos </option>
+                                                                <option value="3">Salud</option>
+                                                                <option value="4">""</option>
+                                                                <option value="5">"" </option>
+                                                                <option value="6">""</option>
+                                                        </select>
+                                                    </th>
+                                                    <th><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <h5 class="text-center">PUEDES SUBIR ARCHIVOS QUE RESPALDEN TU SOLICITUD</h5>
+
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">SUBIR ARCHIVO</th>
+                                                </tr>
+                                            </thead>
+                                                                                
+                                            <tbody>
+                                                <tr>
+                                                    <th class="text-center">
+                                                    <button type="button" class="btn btn-primary">Cargar Archivos</button>
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p class="text-center">
+                                        (Puedes subir un máx. de 3 archivos, en formato PDF con un tamaño máx. de 5 MB.)
+                                    </p>
+
                                 </div>
+
+                                <!-- SEGUNDA OPCION-->
+                                <div class="accion_hide accion_opc2">
+                                <h3 class=" text-center">DATOS DE LA SOLICITUD</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm mb-5">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">Estudiante</th>
+                                                    <th scope="col">Rut</th>
+                                                    <th scope="col">Registro</th>
+                                                    <th scope="col">carrera</th>
+                                                    <th scope="col">Plan</th>
+                                                    <th scope="col">Mencion</th>
+                                                    <th scope="col">Tipo solicitud</th>
+                                                </tr>
+                                            </thead>
+                                                                                
+                                            <tbody>
+                                                <tr>
+                                                    <th>Pablo Gomez</th>
+                                                    <th>21181012-2</th>
+                                                    <th>2021012008</th>
+                                                    <th>154-INGENIERÍA CIVIL EN INFORMÁTICA</th>
+                                                    <th>3</th>
+                                                    <th>Sin mencion</th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">MOTIVO</th>
+                                                    <th scope="col">OBSERVACION</th>
+                                                </tr>
+                                            </thead>
+                                                                                
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                                <option selected>Seleccione motivo</option>
+                                                                <option value="1">academico</option>
+                                                                <option value="2">Hijos </option>
+                                                                <option value="3">Salud</option>
+                                                                <option value="4">""</option>
+                                                                <option value="5">"" </option>
+                                                                <option value="6">""</option>
+                                                        </select>
+                                                    </th>
+                                                    <th><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <h5 class="text-center">PUEDES SUBIR ARCHIVOS QUE RESPALDEN TU SOLICITUD</h5>
+
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">SUBIR ARCHIVO</th>
+                                                </tr>
+                                            </thead>
+                                                                                
+                                            <tbody>
+                                                <tr>
+                                                    <th class="text-center">
+                                                    <button type="button" class="btn btn-primary">Cargar Archivos</button>
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p class="text-center">
+                                        (Puedes subir un máx. de 3 archivos, en formato PDF con un tamaño máx. de 5 MB.)
+                                    </p>
+
+
+                                </div>
+
+                                <script type="text/javascript">
+                                $('.accion_hide').addClass('collapse');
+                                $('#accion').change(function(){
+                                    var selector = '.accion_' + $(this).val();
+                                    $('.accion_hide').collapse('hide');
+                                    $(selector).collapse('show');
+                                });
+                                </script>
+
+                                <!--                    -->
+ 
                             </div>
                         </div>
-                    </div>
-
-
-
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -134,53 +281,73 @@
 
                                 <strong>Selecciona una carrera: </strong>
 
-                                <select class="form-select text-center" aria-label="Default select example">
+                                <select class="form-select text-center mb-5" aria-label="Default select example">
                                     <option selected><strong>Selecciona una carrera...</strong></option>
                                     <option value="1">154:INGENIERÍA CIVIL EN INFORMÁTICA - PLAN 3</option>
                                 </select>
 
-                                <strong>Selecciona un semestre:</strong>
-
-                                <select class="form-select text-center" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseSemestre" aria-expanded="false" aria-controls="collapseWidthExample">
-                                    <option selected><strong>Selecciona una semestre...</strong></option>
-                                    <option value="1">Primer semestre</option>
-                                    <option value="2">Segundo semestre</option>
-                                </select>
-
-                                <div class="collapse text-center" id="collapseSemestre">
-                                    <strong>Selecciona un curso:</strong>
-
-                                    <select class="form-select text-center" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseCurso" aria-expanded="false" aria-controls="collapseWidthExample">
-                                        <option selected><strong>Selecciona un curso...</strong></option>
-                                        <option value="1">Algoritmos de Optimización</option>
-                                        <option value="2">Robótica</option>
-                                        <option value="3">Cálculo Avanzado</option>
-                                    </select>
-
-                                    <div class="collapse text-center" id="collapseCurso">
-                                        <strong>Asistencias</strong>
-
-                                        <table class="table table-responsive table-sm">
+                                <h3 class=" text-center">DATOS DE LA SOLICITUD</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm mb-5">
                                             <thead class="table-dark">
                                                 <tr>
-                                                    <th scope="col">N° Clase</th>
-                                                    <th scope="col">Fecha</th>
-                                                    <th scope="col">Hora de Inicio</th>
-                                                    <th scope="col">Asistencia</th>
+                                                    <th scope="col">Estudiante</th>
+                                                    <th scope="col">Rut</th>
+                                                    <th scope="col">Registro</th>
+                                                    <th scope="col">carrera</th>
+                                                    <th scope="col">Plan</th>
+                                                    <th scope="col">Mencion</th>
+                                                    <th scope="col">Tipo solicitud</th>
                                                 </tr>
                                             </thead>
-                                                            
+                                                                                
                                             <tbody>
                                                 <tr>
-                                                    <th>""</th>
-                                                    <td> ""</td>
-                                                    <td>""</td>
-                                                    <td>""</td>
+                                                    <th>Pablo Gomez</th>
+                                                    <th>21181012-2</th>
+                                                    <th>2021012008</th>
+                                                    <th>154-INGENIERÍA CIVIL EN INFORMÁTICA</th>
+                                                    <th>3</th>
+                                                    <th>Sin mencion</th>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
-                                </div>
+
+
+                                    <h5 class="text-center">SOLICITUDES REALIZADAS</h5>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm mb-5">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">AÑO</th>
+                                                    <th scope="col">SEMESTRE</th>
+                                                    <th scope="col">FECHA</th>
+                                                    <th scope="col">TIPO SOLICITUD</th>
+                                                    <th scope="col">ESTADO</th>
+                                                    <th scope="col">VER PDF</th>
+                                                </tr>
+                                            </thead>
+                                                                                
+                                            <tbody>
+                                                <tr>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th></th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p class="text-center">Nota: El detalle de la resolución la puedes ver en la segunda hoja del archivo Comprobante.pdf.</p>
+
+                                    </div>
+
+                                    
+
+
+
                             </div>
                         </div>
                     </div>

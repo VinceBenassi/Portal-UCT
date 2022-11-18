@@ -26,10 +26,29 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.css"/>
 
         <style>
+        
+        #lateral { 
+            background-color: #00568e;
+        }
+
+        /*
+        #home-tab{
+            color: black;
+        }
+
+        #profile-tab{
+
+        }
+        */
+        
             /* Navegación modo oscuro*/
             body.darkmode {
                 background-color: #1f1f1f;
                 color: white;
+            }
+            
+            .darkmode #lateral {
+                background-color: #1c1c1c;
             }
 
             .darkmode .navbar {
@@ -87,15 +106,17 @@
                 background-color: #3c3939;
                 color: white;
             }
+            .darkmode .alert{
+                color: black;
+            }
+            
             
 
 
 
             /* Navegación Fondo Blanco */
             body {
-                transition: all 0.4s;
-        
-                
+                transition: all 0.4s;    
             }
 
             .navbar {
@@ -109,17 +130,45 @@
 
             article a {
                 background-color:#00568e;
-                color: #f8bf19;
+                color: #ffc20e;
                 text-decoration: none;
             }
 
-            .nav-link {
+            #Barra_superior_1 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_2 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_3 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_4 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_5 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_6 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_7 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_8 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_9 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_10 {
                 color: white/*#e1bd4f*/;
             }
 
             .card {
-                width: 60%;
+                width: 100%;
                 margin: 0 auto;
+                
             }
 
             .btn-outline {
@@ -135,13 +184,18 @@
             .acad{
                 display: inline;
             }
+
+            .nav-item{
+                color: black;
+            }
+
         </style>
     </head>
 
 
     <!-- Cuerpo principal -->
     <body>
-        <nav class="navbar navbar-expand-lg mb-3">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://www.uct.cl/" target="_blank" rel="noopener noreferrer">
                     <img src="images/iconoUCT.png" alt="UCT" width="30" height="30">
@@ -154,44 +208,44 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://educa.blackboard.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-square-pen"></i> EDUCA BLACKBOARD</a>
+                            <a class="nav-link" id="Barra_superior_1" href="https://educa.blackboard.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-square-pen"></i> EDUCA BLACKBOARD</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://webmail.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i> WEBMAIL</a>
+                            <a class="nav-link" id="Barra_superior_2" href="https://webmail.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i> WEBMAIL</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://directorio.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-users"></i> DIRECTORIO</a>
+                            <a class="nav-link" id="Barra_superior_3" href="https://directorio.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-users"></i> DIRECTORIO</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://secretariageneral.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-lock"></i> INTRANET</a>
+                            <a class="nav-link" id="Barra_superior_4" href="https://secretariageneral.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-lock"></i> INTRANET</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://vip.uct.cl/posgrado/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap"></i> POSGRADO</a>
+                            <a class="nav-link" id="Barra_superior_5" href="https://vip.uct.cl/posgrado/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap"></i> POSGRADO</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://tuct.uctemuco.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-id-card"></i> CREDENCIAL</a>
+                            <a class="nav-link" id="Barra_superior_6" href="https://tuct.uctemuco.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-id-card"></i> CREDENCIAL</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://admision.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-hand-pointer"></i> ADMISIÓN</a>
+                            <a class="nav-link" id="Barra_superior_7" href="https://admision.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-hand-pointer"></i> ADMISIÓN</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://dge.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-building-columns"></i> DGE</a>
+                            <a class="nav-link" id="Barra_superior_8" href="https://dge.uct.cl/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-building-columns"></i> DGE</a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.uct.cl/calendario-academico/" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-calendar"></i> CALENDARIO</a>
+                            <a class="nav-link" id="Barra_superior_9" href="https://www.uct.cl/calendario-academico/" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-calendar"></i> CALENDARIO</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.uct.cl/centro-de-ayuda/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-book"></i> CONTACTO</a>
+                            <a class="nav-link" id="Barra_superior_10" href="https://www.uct.cl/centro-de-ayuda/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-address-book"></i> CONTACTO</a>
                         </li>
                     </ul>
 
@@ -460,6 +514,8 @@
                     localStorage.setItem('darkmode', value);
                 }
             }
+
+        
         </script>
     </body>
 </html>
