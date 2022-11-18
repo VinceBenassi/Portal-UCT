@@ -40,25 +40,27 @@
 
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <table class="table table-responsive table-sm">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th scope="col">Rut</th>
-                                            <th scope="col">Nombre del alumno</th>
-                                            <th scope="col">Celular</th>
-                                            <th scope="col">E-Mail</th>
-                                        </tr>
-                                    </thead>
-                                        
-                                    <tbody>
-                                        <tr>
-                                            <th>21080232-2</th>
-                                            <td>Pablo Javier Gomez Quidel</td>
-                                            <td>+56953699462</td>
-                                            <td>Pgomez2021@uct.cl</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">Rut</th>
+                                                <th scope="col">Nombre del alumno</th>
+                                                <th scope="col">Celular</th>
+                                                <th scope="col">E-Mail</th>
+                                            </tr>
+                                        </thead>
+                                            
+                                        <tbody>
+                                            <tr>
+                                                <th>21080232-2</th>
+                                                <td>Pablo Javier Gomez Quidel</td>
+                                                <td>+56953699462</td>
+                                                <td>Pgomez2021@uct.cl</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
                                 <select class="form-select text-center mb-3" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseBeneficios" aria-expanded="false" aria-controls="collapseWidthExample">
                                     <option selected><strong>Seleccione una Carrera...</strong></option>
@@ -88,32 +90,34 @@
                                         </tbody>
                                     </table>
 
-                                    <table class="table table-responsive table-sm">
-                                        <thead class="table-dark">
-                                            <tr>
-                                                <th scope="col">Registro</th>
-                                                <th scope="col">Año Ingreso	</th>
-                                                <th scope="col">Carrera</th>
-                                                <th scope="col">Situación</th>
-                                            </tr>
-                                        </thead>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">Registro</th>
+                                                    <th scope="col">Año Ingreso	</th>
+                                                    <th scope="col">Carrera</th>
+                                                    <th scope="col">Situación</th>
+                                                </tr>
+                                            </thead>
 
-                                        <tbody>
-                                            <tr>
-                                                <th>2064351647</th>
-                                                <td>2021</td>
-                                                <td>INGENIERÍA CIVIL EN INFORMÁTICA</td>
-                                                <td>REGULAR</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                            <tbody>
+                                                <tr>
+                                                    <th>2064351647</th>
+                                                    <td>2021</td>
+                                                    <td>INGENIERÍA CIVIL EN INFORMÁTICA</td>
+                                                    <td>REGULAR</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
 
                                     <h3>Formulario ingreso solicitud</h3>
-
-                                    <select class="form-select text-center mb-3" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseRenuncia" aria-expanded="false" aria-controls="collapseWidthExample">
+        
+                                    <select class="form-select text-center mb-3" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseRenuncia" aria-expanded="false" aria-controls="collapseWidthExample" name="solicitud" id="solicitud"  onchange="alerta();">                                       
                                         <option selected><strong>Tipo de solicitud..</strong></option>
                                         <option value="1">RENUNCIA</option>
-                                        <option value="1">SUSPENCION</option>
+                                        <option value="2">SUSPENCION</option>
                                     </select>
 
                                     <div class="collapse text-center" id="collapseRenuncia">
@@ -360,24 +364,27 @@
                                 </select>
 
                                 <div class="collapse text-center" id="collapseCarrera">
-                                    <table class="table table-responsive table-sm">
-                                        <thead class="table-primary">
-                                            <tr>
-                                                <th scope="col">Código Solicitud</th>
-                                                <th scope="col">Fecha Solicitud</th>
-                                                <th scope="col">Tipo Solicitud</th>
-                                                <th scope="col">Estado</th>
-                                                <th scope="col">Observación</th>
-                                                <th scope="col">Comprobante</th>
-                                            </tr>
-                                        </thead>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-primary">
+                                                <tr>
+                                                    <th scope="col">Código Solicitud</th>
+                                                    <th scope="col">Fecha Solicitud</th>
+                                                    <th scope="col">Tipo Solicitud</th>
+                                                    <th scope="col">Estado</th>
+                                                    <th scope="col">Observación</th>
+                                                    <th scope="col">Comprobante</th>
+                                                </tr>
+                                            </thead>
 
-                                        <tbody>
-                                            <tr>
+                                            <tbody>
+                                                <tr>
 
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -386,4 +393,26 @@
             </section>
         </aside>
     </section>
+    
+    <script>
+        /* alerta para cuando se termine el tiempo para la suspencion de beneficios*/
+        function alerta() {
+                
+                /* Para obtener el texto */
+                var combo = document.getElementById("solicitud");
+                var selected = combo.options[combo.selectedIndex].text;
+                if (selected === 'SUSPENCION'){
+                    
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Estás fuera de plazo para realizar la Suspensión, por favor diríjase a DARA para más información.',
+                        showConfirmButton: true,
+                        timer: 10000,
+                    })
+
+                } else{
+                    
+                }
+            }
+    </script>
 @endsection

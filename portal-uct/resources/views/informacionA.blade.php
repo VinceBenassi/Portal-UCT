@@ -28,8 +28,9 @@
                         
                         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <strong>Información del Estudiante</strong>
-                            
-                            <table class="table table-responsive table-sm">
+
+                            <div class="table-responsive">
+                            <table class="table table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">RUT</th>
@@ -39,17 +40,17 @@
                                                     
                                 <tbody>
                                     <tr>
-                                        <th>2064351647</th>
-                                        <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
+                                        <th>203659555</th>
+                                        <td>Franco Vincenzo Benassi Cerón</td>
                                     </tr>
                                 </tbody>
                             </table>
-
-
+                            </div>
 
                             <strong>Información de la Carrera</strong>
-                                
-                            <table class="table table-responsive table-sm mb-3">
+
+                            <div class="table-responsive">
+                            <table class="table table-sm">
                                 <thead class="table-dark">
                                     <tr>
                                         <th scope="col">Cód. Carrera</th>
@@ -72,22 +73,249 @@
                                     </tr>
                                 </tbody>
                             </table>
-
-
-                            <div class="acad container mb-3">
-                                <button type="button" class="btn btn-primary">Listado de Cursos</button>
-                                <button type="button" class="btn btn-primary">Competencias</button>
-                                <button type="button" class="btn btn-primary">Creditos Libre Disposicion</button>
-                                <button type="button" class="btn btn-primary">Prueba de Produccion Texto</button>
-                                <button type="button" class="btn btn-primary">Avance Curricular</button>
-                                <button type="button" class="btn btn-primary">PDF</button>
                             </div>
+
+                            <div class="container mb-3">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Listado de Cursos</button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo2">Competencias</button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo3">Creditos Libre Disposicion</button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo4">Prueba de Produccion Texto</button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo5">Avance Curricular</button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo6">PDF</button>
+                            </div>
+
+                            <div id="demo" class="collapse" >
+                                <h1>Todos los Cursos</h1>
+
+
+                                <strong>Seleccione Estado de Cursos</strong>
+                                <select class="form-select text-center mb-3 col-md-6" aria-label="Default select example">
+                                    <option selected><strong>...</strong></option>
+                                    <option>Todos los cursos</option>
+                                    <option>Cursos reprobados</option>
+                                    <option>Curdos Aprobados</option>
+                                </select>
+
+                                <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th scope="col">Año</th>
+                                            <th scope="col">Semestre</th>
+                                            <th scope="col">Sigla</th>
+                                            <th scope="col">Nombre Curso</th>
+                                            <th scope="col">Creditos</th>
+                                            <th scope="col">Nota</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>2</td>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>6</td>
+                                            <td>5.5</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>2</td>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>6</td>
+                                            <td>5.5</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>2</td>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>6</td>
+                                            <td>5.5</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>2</td>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>6</td>
+                                            <td>5.5</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>2</td>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>6</td>
+                                            <td>5.5</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>2</td>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>6</td>
+                                            <td>5.5</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>2</td>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>6</td>
+                                            <td>5.5</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+
+                            </div>
+                            <div id="demo2" class="collapse">
+                                <h1 class="mb-3">Competencias Genéricas</h1>
+
+                                <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th scope="col">Fecha</th>
+                                            <th scope="col">Sigla</th>
+                                            <th scope="col">Nombre Asignatura</th>
+                                            <th scope="col">Seccion</th>
+                                            <th scope="col">Competencia</th>
+                                            <th scope="col">Nivel</th>
+                                            <th scope="col">Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>2020/05/12</th>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>2</td>
+                                            <td>Creatividad e Innovacion</td>
+                                            <td>1</td>
+                                            <td>Evidencia</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020/05/12</th>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>2</td>
+                                            <td>Creatividad e Innovacion</td>
+                                            <td>1</td>
+                                            <td>Evidencia</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020/05/12</th>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>2</td>
+                                            <td>Creatividad e Innovacion</td>
+                                            <td>1</td>
+                                            <td>Evidencia</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020/05/12</th>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>2</td>
+                                            <td>Creatividad e Innovacion</td>
+                                            <td>1</td>
+                                            <td>Evidencia</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020/05/12</th>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>2</td>
+                                            <td>Creatividad e Innovacion</td>
+                                            <td>1</td>
+                                            <td>Evidencia</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020/05/12</th>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>2</td>
+                                            <td>Creatividad e Innovacion</td>
+                                            <td>1</td>
+                                            <td>Evidencia</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2020/05/12</th>
+                                            <td>INF1198</td>
+                                            <td>Programacion de Robot</td>
+                                            <td>2</td>
+                                            <td>Creatividad e Innovacion</td>
+                                            <td>1</td>
+                                            <td>Evidencia</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                                
+
+                            </div>
+                            <div id="demo3" class="collapse">
+                                <h1 class="mb-3">Créditos Libre Disposición</h1>
+
+                                <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th scope="col">Actividad</th>
+                                            <th scope="col">Lugar</th>
+                                            <th scope="col">Fechas</th>
+                                            <th scope="col">Creditos</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                </div>
+
+                            </div>
+
+                            <div id="demo4" class="collapse">
+                                <h1 class="mb-3">Prueba Producción de Textos</h1>
+
+                                <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th scope="col">Año</th>
+                                            <th scope="col">Semestre</th>
+                                            <th scope="col">Sigla</th>
+                                            <th scope="col">Nombre Curso</th>
+                                            <th scope="col">Creditos</th>
+                                            <th scope="col">Situacion</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>2020</th>
+                                            <td>1</td>
+                                            <td>Prodtexto1</td>
+                                            <td>Prueba Produccion de Texto</td>
+                                            <td>0</td>
+                                            <td>Aprobado</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+
+                            </div>
+                            <div id="demo5" class="collapse">
+                                <h1>xd xd xd xd xd</h1>
+
+                            </div>
+                            <div id="demo6" class="collapse">
+                                <h1>xd xd xd xd xd xd</h1>
+
+                            </div>
+
                         </div>
                     </div>
 
-
-
-                    <div class="accordion-item mb-3">
+                    <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Cursos Inscritos
@@ -111,7 +339,8 @@
                             <div class="collapse text-center" id="collapseCarrera">
                                 <h2>Información de la carrera</h2>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Cód. Carrera</th>
@@ -128,12 +357,13 @@
                                             <th>154</th>
                                             <td>INGENIERÍA CIVIL EN INFORMÁTICA</td>
                                             <td>3</td>
-                                            <td>2021</td>
+                                            <td>2019</td>
                                             <td>2021011647</td>
                                             <td>REGULAR</td>
                                         </tr>
                                     </tbody>
                                 </table>
+                                </div>
 
                                 <strong>El siguiente formulario:</strong>
 
@@ -144,7 +374,8 @@
 
                                 <h4>Carga Académica</h4>
 
-                                <table class="table table-responsive table-sm">
+                                <div class="table-responsive">
+                                <table class="table table-sm">
                                     <thead class="table-dark">
                                         <tr>
                                             <th scope="col">Año</th>
@@ -258,13 +489,14 @@
                                             <td>MIN</td>
                                         </tr>
                                     </tbody>
-                                </table> 
+                                </table>
+                                </div>
                                 
-
                                 
                                 <h4>Salas Asignadas</h4>
                                 
-                                <table class="table table-responsive table-sm table-bordered">
+                                <div class="table-responsive">
+                                <table class="table table-sm table-bordered">
                                     <thead class="table-dark">
                                         <tr>
                                             <th  class="text-start" colspan="6">INFO1116 - MANTENCION Y ADMINISTRACION DE SISTEMAS</th>
@@ -367,6 +599,7 @@
                                         </tr>
                                     </tbody>              
                                 </table>
+                                </div>
                             </div>
                         </div>
                     </div>

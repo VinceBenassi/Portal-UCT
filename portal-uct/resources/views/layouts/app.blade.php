@@ -50,8 +50,7 @@
             }
 
             .darkmode .nav-link {
-                color: #e1bd4f;
-                color: white;
+                color: lightgrey;
             }
 
             .darkmode .card {
@@ -81,6 +80,23 @@
                 color: black;
             }
 
+            .darkmode div{
+                color: white;
+            }
+
+            .darkmode .accordion-item{
+                background-color: #3c3939;
+            }
+
+            .darkmode .accordion-button{
+                background-color: #3c3939;
+                color: white;
+            }
+
+            .darkmode .alert{
+                color: black;
+            }
+
 
             /* Navegación Fondo Blanco */
             body {
@@ -88,26 +104,57 @@
             }
 
             .navbar {
-                background-color: #1c335f;
+                background-color: #00568e;
             }
 
             footer {
-                background-color: #1c335f;
-                color: #cda52b;
+                background-color: #00568e;
+                color: white;
+            }
+
+            #Barra_superior_1 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_2 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_3 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_4 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_5 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_6 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_7 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_8 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_9 {
+                color: white/*#e1bd4f*/;
+            }
+            #Barra_superior_10 {
+                color: white/*#e1bd4f*/;
             }
 
             .nav{
-                background-color: #1c335f;
+                background-color: #00568e;
                 border-radius: 5px;
             }
 
             .dropdown{
-                background-color: #1c335f;
+                background-color: #00568e;
                 border-radius: 5px;
             }
 
             .nav-link {
-                color: #e1bd4f;
+                color: white;
             }
 
             .card {
@@ -127,6 +174,10 @@
 
             .acad{
                 display: inline;
+            }
+
+            .nav-item{
+                color: black;
             }
         </style>
     </head>

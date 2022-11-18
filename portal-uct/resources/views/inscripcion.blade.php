@@ -293,52 +293,6 @@
 
 
                                                 <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                                                            COMPETENCIAS SOCIOEMOCIONALES Y DESARROLLO PERSONAL
-                                                        </button>
-                                                    </h2>
-                                            
-                                                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-                                                        <div class="accordion-body">
-                                                            <table class="table table-responsive table-sm">
-                                                                <thead class="table-dark">
-                                                                    <tr>
-                                                                        <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre Curso</th>
-                                                                        <th scope="col">Unidad que dicta</th>
-                                                                        <th scope="col">Sección</th>
-                                                                        <th scope="col">Info.</th>
-                                                                        <th scope="col">Inscritos</th>
-                                                                        <th scope="col">Cupos</th>
-                                                                        <th scope="col">Inscribir</th>
-                                                                    </tr>
-                                                                </thead>
-
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <th></th>
-                                                                        <td></td>
-                                                                        <td></td>
-                                                                        <td></td>
-                                                                        <td>
-                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
-                                                                        </td>
-                                                                        <td></td>
-                                                                        <td></td>
-                                                                        <td>
-                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-
-                                                <div class="accordion-item">
                                                     <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
                                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
                                                             Cursos Inscritos

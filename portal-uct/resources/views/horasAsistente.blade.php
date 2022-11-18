@@ -35,21 +35,23 @@
                             <div class="accordion-body text-center">
                                 <strong>Información del Estudiante</strong>
                                 
-                                <table class="table table-responsive table-sm">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th scope="col">RUT</th>
-                                            <th scope="col">NOMBRE</th>
-                                        </tr>
-                                    </thead>
-                                                        
-                                    <tbody>
-                                        <tr>
-                                            <th>2064351647</th>
-                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">RUT</th>
+                                                <th scope="col">NOMBRE</th>
+                                            </tr>
+                                        </thead>
+                                                            
+                                        <tbody>
+                                            <tr>
+                                                <th>203659555</th>
+                                                <td>Franco Vincenzo Benassi Cerón</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
                                 <select class="form-select text-center mb-3" aria-label=".form-select-lg example" data-bs-toggle="collapse" data-bs-target="#collapseCarrera" aria-expanded="false" aria-controls="collapseWidthExample">
                                     <option selected><strong>Seleccione una carrera...</strong></option>
@@ -145,7 +147,7 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
+                                </div>                             
                             </div>
                         </div>
                     </div>

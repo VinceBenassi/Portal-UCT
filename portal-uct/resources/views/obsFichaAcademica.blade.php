@@ -6,7 +6,7 @@
     <section class="d-sm-flex">
         @include('partials.lateral')
 
-
+        
 
         <aside class="mx-auto">
             <section class="container text-center">
@@ -41,28 +41,30 @@
                                 <div class="collapse text-center" id="collapseCarrera">
                                     <h3>Estado de solicitudes</h3>
 
-                                    <table class="table table-responsive table-sm">
-                                        <thead class="table-dark">
-                                            <tr>
-                                                <th scope="col">Código Solicitud</th>
-                                                <th scope="col">Fecha Solicitud</th>
-                                                <th scope="col">Sigla Curso</th>
-                                                <th scope="col">Tipo Solicitud</th>
-                                                <th scope="col">Estado</th>
-                                                <th scope="col">Obs.</th>
-                                            </tr>
-                                        </thead>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th scope="col">Código Solicitud</th>
+                                                    <th scope="col">Fecha Solicitud</th>
+                                                    <th scope="col">Sigla Curso</th>
+                                                    <th scope="col">Tipo Solicitud</th>
+                                                    <th scope="col">Estado</th>
+                                                    <th scope="col">Obs.</th>
+                                                </tr>
+                                            </thead>
 
-                                        <tbody>
-                                            <tr>
-                                                <th></th>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                            <tbody>
+                                                <tr>
+                                                    <th></th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>

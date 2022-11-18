@@ -304,10 +304,10 @@
                                         
                                     <tbody>
                                         <tr>
-                                            <th>21080232-2</th>
-                                            <td>Pablo Javier Gomez Quidel</td>
-                                            <td>+56953699462</td>
-                                            <td>Pgomez2021@uct.cl</td>
+                                            <th>203659555</th>
+                                            <td>Franco Vincenzo Benassi Cerón</td>
+                                            <td>56991749700</td>
+                                            <td>fbenassi2019@alu.uct.cl</td>
                                         </tr>
                                     </tbody>
                                 </table>

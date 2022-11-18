@@ -30,22 +30,23 @@
                             <div class="accordion-body">
                                 <strong>Información del estudiante</strong>
 
-                                <table class="table table-responsive table-sm">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th scope="col">RUT</th>
-                                            <th scope="col">NOMBRE</th>
-                                        </tr>
-                                    </thead>
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">RUT</th>
+                                                <th scope="col">NOMBRE</th>
+                                            </tr>
+                                        </thead>
 
-                                    <tbody>
-                                        <tr>
-                                            <th>2064351647</th>
-                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
+                                        <tbody>
+                                            <tr>
+                                                <th>203659555</th>
+                                                <td>Franco Vincenzo Benassi Cerón</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
                                 
                                 <strong>Selecciona una carrera: </strong>
@@ -76,28 +77,31 @@
                                     <div class="collapse text-center" id="collapseCurso">
                                         <strong>Notas parciales</strong>
 
-                                        <table class="table table-responsive table-sm">
-                                            <thead class="table-dark">
-                                                <tr>
-                                                    <th scope="col">Descripcion</th>
-                                                    <th scope="col">Fecha</th>
-                                                    <th scope="col">Porcentaje</th>
-                                                    <th scope="col">Nota</th>
-                                                    <th scope="col">Tipo de Evaluacion</th>
-                                                </tr>
-                                            </thead>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm">
+                                                <thead class="table-dark">
+                                                    <tr>
+                                                        <th scope="col">Descripcion</th>
+                                                        <th scope="col">Fecha</th>
+                                                        <th scope="col">Porcentaje</th>
+                                                        <th scope="col">Nota</th>
+                                                        <th scope="col">Tipo de Evaluacion</th>
+                                                    </tr>
+                                                </thead>
 
-                                            <tbody>
-                                                <tr>
-                                                    <th>hjhj</th>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>hjhj</th>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -116,21 +120,23 @@
                             <div class="accordion-body">
                                 <strong>Información del estudiante</strong>
 
-                                <table class="table table-responsive table-sm">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th scope="col">RUT</th>
-                                            <th scope="col">NOMBRE</th>
-                                        </tr>
-                                    </thead>
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th scope="col">RUT</th>
+                                                <th scope="col">NOMBRE</th>
+                                            </tr>
+                                        </thead>
 
-                                    <tbody>
-                                        <tr>
-                                            <th>2064351647</th>
-                                            <td>PABLO BENJAMÍN GOMEZ CORTEZ</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                        <tbody>
+                                            <tr>
+                                                <th>203659555</th>
+                                                <td>Franco Vincenzo Benassi Cerón</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
 
 
@@ -162,25 +168,27 @@
                                     <div class="collapse text-center" id="collapseCurso">
                                         <strong>Asistencias</strong>
 
-                                        <table class="table table-responsive table-sm">
-                                            <thead class="table-dark">
-                                                <tr>
-                                                    <th scope="col">N° Clase</th>
-                                                    <th scope="col">Fecha</th>
-                                                    <th scope="col">Hora de Inicio</th>
-                                                    <th scope="col">Asistencia</th>
-                                                </tr>
-                                            </thead>
-                                                            
-                                            <tbody>
-                                                <tr>
-                                                    <th>""</th>
-                                                    <td> ""</td>
-                                                    <td>""</td>
-                                                    <td>""</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm">
+                                                <thead class="table-dark">
+                                                    <tr>
+                                                        <th scope="col">N° Clase</th>
+                                                        <th scope="col">Fecha</th>
+                                                        <th scope="col">Hora de Inicio</th>
+                                                        <th scope="col">Asistencia</th>
+                                                    </tr>
+                                                </thead>
+                                                                
+                                                <tbody>
+                                                    <tr>
+                                                        <th>""</th>
+                                                        <td>""</td>
+                                                        <td>""</td>
+                                                        <td>""</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
