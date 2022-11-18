@@ -56,44 +56,12 @@
                             <div class="accordion-body">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
                                                 CIUDADANÍA Y DERECHOS HUMANOS
                                             </button>
                                         </h2>
                                 
-                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-                                            <div class="accordion-body">
-                                                <table class="table table-responsive table-sm">
-                                                    <thead class="table-dark">
-                                                        <tr>
-                                                            <th scope="col">Sigla</th>
-                                                            <th scope="col">Nombre</th>
-                                                            <th scope="col">Tipo de curso</th>
-                                                        </tr>
-                                                    </thead>
-
-                                                    <tbody>
-                                                        <tr>
-                                                            <th></th>
-                                                            <td></td>
-                                                            <td></td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-
-
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                                DESARROLLO LOCAL, TERRITORIALIDAD E INTERCULTURALIDAD
-                                            </button>
-                                        </h2>
-                                    
                                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                                             <div class="accordion-body">
                                                 <table class="table table-responsive table-sm">
@@ -122,10 +90,10 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                                RAKIZUAM EGU KIMÜN/PENSAMIENTO Y CONOCIMIENTO MAPUCHE
+                                                DESARROLLO LOCAL, TERRITORIALIDAD E INTERCULTURALIDAD
                                             </button>
                                         </h2>
-                                
+                                    
                                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                                             <div class="accordion-body">
                                                 <table class="table table-responsive table-sm">
@@ -148,13 +116,13 @@
                                             </div>
                                         </div>
                                     </div>
-
+                            
 
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                                                TEOLOGÍA Y SOCIEDAD
+                                                RAKIZUAM EGU KIMÜN/PENSAMIENTO Y CONOCIMIENTO MAPUCHE
                                             </button>
                                         </h2>
                                 
@@ -186,7 +154,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingFive">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                                                FILOSOFÍA DE LA PERSONA
+                                                TEOLOGÍA Y SOCIEDAD
                                             </button>
                                         </h2>
                                 
@@ -218,7 +186,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingSix">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                                                COMPETENCIAS SOCIOEMOCIONALES Y DESARROLLO PERSONAL
+                                                FILOSOFÍA DE LA PERSONA
                                             </button>
                                         </h2>
                                 
@@ -250,11 +218,43 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-                                                EQUIDAD DE GÉNERO PARA NUEVAS SOCIEDADES
+                                                COMPETENCIAS SOCIOEMOCIONALES Y DESARROLLO PERSONAL
                                             </button>
                                         </h2>
                                 
                                         <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                                            <div class="accordion-body">
+                                                <table class="table table-responsive table-sm">
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th scope="col">Sigla</th>
+                                                            <th scope="col">Nombre</th>
+                                                            <th scope="col">Tipo de curso</th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+                                                        <tr>
+                                                            <th></th>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                                                EQUIDAD DE GÉNERO PARA NUEVAS SOCIEDADES
+                                            </button>
+                                        </h2>
+                                
+                                        <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
                                             <div class="accordion-body">
                                                 <table class="table table-responsive table-sm">
                                                     <thead class="table-dark">
@@ -284,13 +284,13 @@
 
 
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
                                 Postular
                             </button>
                         </h2>
 
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
                             <div class="accordion-body">
                                 <table class="table table-responsive table-sm">
                                     <thead class="table-dark">
@@ -340,13 +340,13 @@
 
 
                     <div class="accordion-item mb-3">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
                                 Mis certificaciones
                             </button>
                         </h2>
 
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen">
                             <div class="accordion-body">
                                 
                             </div>

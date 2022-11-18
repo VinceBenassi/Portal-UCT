@@ -41,13 +41,17 @@
                 color: white;
             }
 
-            .darkmode article a {
+            .darkmode .nav{
                 background-color: #1c1c1c;
-                color: white;
+            }
+
+            .darkmode .dropdown{
+                background-color: #1c1c1c;
             }
 
             .darkmode .nav-link {
-                color: lightgrey;
+                color: #e1bd4f;
+                color: white;
             }
 
             .darkmode .card {
@@ -92,10 +96,14 @@
                 color: #cda52b;
             }
 
-            article a {
+            .nav{
                 background-color: #1c335f;
-                color: white;
-                text-decoration: none;
+                border-radius: 5px;
+            }
+
+            .dropdown{
+                background-color: #1c335f;
+                border-radius: 5px;
             }
 
             .nav-link {
@@ -103,7 +111,7 @@
             }
 
             .card {
-                width: 60%;
+                width: 70%;
                 margin: 0 auto;
             }
 
@@ -126,7 +134,7 @@
 
     <!-- Cuerpo principal -->
     <body>
-        <nav class="navbar navbar-expand-lg mb-3">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://www.uct.cl/" target="_blank" rel="noopener noreferrer">
                     <img src="images/iconoUCT.png" alt="UCT" width="30" height="30">

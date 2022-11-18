@@ -11,7 +11,7 @@
         <aside class="mx-auto col-md-4">
             <div class="card text-center mb-3">
                 @foreach($usuarios as $usuario)
-                    <img src="fotos/{{ $usuario->Imagen }}" height="400" class="card-img-top" alt="...">
+                    <img src="fotos/{{ $usuario->Imagen }}" height="500" class="card-img-top" alt="...">
                     
                     <div class="card-body">
                         <h5 class="card-title">Bienvenido/a {{ $usuario->Nombres }} {{ $usuario->ApellidoP }}</h5>

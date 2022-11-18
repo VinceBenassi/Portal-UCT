@@ -17,10 +17,10 @@
             </p>
         </div>
 
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Ingrese su rut:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="RUN: 218763421">
+        <form class="mb-3">
+            <div class="form-floating run mb-3">
+                <input value="@if(Session::has('rut_nro')){{ Session::get('rut_nro')}}@endif" class="form-control input-sm" id="floatingInput rut" onpaste="return false;" ondrop="return false;" inputmode="numeric" onkeypress='validate(event)' class="form-control form-control-lg" size=9 minlength="7" maxlength="9" type="text" pattern="[0-9]+" name="rut" id="rut" placeholder="N° RUN" oninput="checkRut()">
+                <label for="floatingInput">RUN sin puntos ni guión</label>
             </div>
 
             <div class="mb-3">

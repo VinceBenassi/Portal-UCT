@@ -15,7 +15,7 @@
                 </div>
                     
                 <div class="form-floating col-lg-3">
-                    <input value="@if(Session::has('contra')){{ Session::get('contra')}}@endif" type="password" class="form-control input-sm" id="floatingPassword contra" onpaste="return false;" ondrop="return false;"  name="contra" placeholder="Contraseña" required>
+                    <input value="@if(Session::has('contra')){{ Session::get('contra')}}@endif" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" type="password" class="form-control input-sm" id="floatingPassword contra" onpaste="return false;" ondrop="return false;"  name="contra" placeholder="Contraseña" required>
                     <label for="floatingPassword">Contraseña</label>
                 </div>
 
