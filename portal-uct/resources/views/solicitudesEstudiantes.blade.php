@@ -53,10 +53,10 @@
                                             
                                         <tbody>
                                             <tr>
-                                                <th>21080232-2</th>
-                                                <td>Pablo Javier Gomez Quidel</td>
-                                                <td>+56953699462</td>
-                                                <td>Pgomez2021@uct.cl</td>
+                                                <th>20365955-5</th>
+                                                <td>Franco Vincenzo Benassi Cerón</td>
+                                                <td>56991749700</td>
+                                                <td>fbenasssi2019@alu.uct.cl</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -103,8 +103,8 @@
 
                                             <tbody>
                                                 <tr>
-                                                    <th>2064351647</th>
-                                                    <td>2021</td>
+                                                    <th>203659555</th>
+                                                    <td>2019</td>
                                                     <td>INGENIERÍA CIVIL EN INFORMÁTICA</td>
                                                     <td>REGULAR</td>
                                                 </tr>

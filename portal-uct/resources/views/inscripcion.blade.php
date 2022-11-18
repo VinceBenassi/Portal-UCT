@@ -63,58 +63,12 @@
                                         <div class="accordion-body">
                                             <div class="accordion" id="accordionPanelsStayOpenExample">
                                                 <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                                             Cursos Académicos
                                                         </button>
                                                     </h2>
                                             
-                                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-                                                        <div class="accordion-body">
-                                                            <table class="table table-responsive table-sm">
-                                                                <thead class="table-dark">
-                                                                    <tr>
-                                                                        <th scope="col">Sigla</th>
-                                                                        <th scope="col">Nombre Curso</th>
-                                                                        <th scope="col">Unidad que dicta</th>
-                                                                        <th scope="col">Sección</th>
-                                                                        <th scope="col">Info.</th>
-                                                                        <th scope="col">Inscritos</th>
-                                                                        <th scope="col">Cupos</th>
-                                                                        <th scope="col">Inscribir</th>
-                                                                    </tr>
-                                                                </thead>
-
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <th></th>
-                                                                        <td></td>
-                                                                        <td></td>
-                                                                        <td></td>
-                                                                        <td>
-                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
-                                                                        </td>
-                                                                        <td></td>
-                                                                        <td></td>
-                                                                        <td>
-                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                        
-
-
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                                            Electivo Antropológico Cristiano
-                                                        </button>
-                                                    </h2>
-                                                
                                                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                                                         <div class="accordion-body">
                                                             <table class="table table-responsive table-sm">
@@ -157,10 +111,10 @@
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                                            Electivo Teológico
+                                                            Electivo Antropológico Cristiano
                                                         </button>
                                                     </h2>
-                                            
+                                                
                                                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                                                         <div class="accordion-body">
                                                             <table class="table table-responsive table-sm">
@@ -197,13 +151,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
+                                        
 
 
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                                                            Electivo para la Diversidad
+                                                            Electivo Teológico
                                                         </button>
                                                     </h2>
                                             
@@ -249,11 +203,57 @@
                                                 <div class="accordion-item">
                                                     <h2 class="accordion-header" id="panelsStayOpen-headingFive">
                                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                                                            Autorizaciones Especiales
+                                                            Electivo para la Diversidad
                                                         </button>
                                                     </h2>
                                             
                                                     <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                                        <div class="accordion-body">
+                                                            <table class="table table-responsive table-sm">
+                                                                <thead class="table-dark">
+                                                                    <tr>
+                                                                        <th scope="col">Sigla</th>
+                                                                        <th scope="col">Nombre Curso</th>
+                                                                        <th scope="col">Unidad que dicta</th>
+                                                                        <th scope="col">Sección</th>
+                                                                        <th scope="col">Info.</th>
+                                                                        <th scope="col">Inscritos</th>
+                                                                        <th scope="col">Cupos</th>
+                                                                        <th scope="col">Inscribir</th>
+                                                                    </tr>
+                                                                </thead>
+
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <th></th>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <a href="horario" class="btn btn-success mb-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                                            Autorizaciones Especiales
+                                                        </button>
+                                                    </h2>
+                                            
+                                                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
                                                         <div class="accordion-body">
                                                             <table class="table table-responsive table-sm">
                                                                 <thead class="table-dark">
