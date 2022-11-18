@@ -50,9 +50,9 @@ https://dbeaver.io/download/
     El nuevo diseño de la plataforma estudiantil cuenta con diversos matices los cuales muestran una mejora en torno a la plataforma original, para empezar el diseño es mucho mas agradable, en vista de celular, siendo este ultimo  responsivo
 <p>
 <br>
-<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='public/images/Portal2.png'>
+<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='portal-uct/public/images/Portal2.png'>
 
-<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='public/images/Portal1.png'>
+<img width="950" alt="Screen Shot 2019-12-16 at 5 59 47 PM" src='portal-uct/public/images/Portal1.png'>
 
 <br>
 
