@@ -85,14 +85,14 @@
 
                                     <tbody>
                                         <tr>
-                                            <th>""</th>
-                                            <td>""</td>
-                                            <td>""</td>
-                                            <td>""</td>
-                                            <td>""</td>
-                                            <td>""</td>
-                                            <td>""</td>
-                                            <td>""</td>
+                                            <th>INGENIERÍA CIV</th>
+                                            <td>2019</td>
+                                            <td>MATRÍCULA</td>
+                                            <td>$0</td>
+                                            <td>$155.000</td>
+                                            <td>-</td>
+                                            <td>31/01/2019</td>
+                                            <td>Pagado</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -187,10 +187,10 @@
 
                                     <tbody>
                                         <tr>
-                                            <th>""</th>
-                                            <td>""</td>
-                                            <td>""</td>
-                                            <td>""</td>
+                                            <th>2019</th>
+                                            <td>GRATUIDAD MATRICULA MINEDUC</td>
+                                            <td>$155.000</td>
+                                            <td>APLICADO CUOTAS</td>
                                         </tr>
                                     </tbody>
                                 </table>
